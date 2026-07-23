@@ -11,8 +11,6 @@ title = 'Docs'
   [params.navbar]
     displayTitle = true
     displayLogo = true
-  [params.search]
-    enable = true
 
 [[menu.main]]
   name = "GitHub"

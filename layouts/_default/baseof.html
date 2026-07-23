@@ -9,7 +9,6 @@
   {{ partial "favicons.html" . }}
   {{ partial "custom/head-end.html" . }}
   <link href="{{ "css/style.css" | relURL }}" rel="stylesheet">
-  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 </head>
 <body>
   {{ block "navbar" . }}
@@ -21,11 +20,5 @@
   {{ end }}
   <script src="{{ "js/theme.js" | relURL }}"></script>
   <script src="{{ "js/menu.js" | relURL }}"></script>
-  <script src="/pagefind/pagefind-ui.js"></script>
-  <script>
-    window.addEventListener('DOMContentLoaded', function () {
-      new PagefindUI({ element: '#search-sidebar', showText: true, showImages: false, resetStyles: false });
-    });
-  </script>
 </body>
 </html>

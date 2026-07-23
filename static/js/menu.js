@@ -75,6 +75,7 @@
         var t = d.querySelector('.nav-dropdown-trigger');
         if (t) t.setAttribute('aria-expanded', 'false');
       });
+
     }
   });
 })();

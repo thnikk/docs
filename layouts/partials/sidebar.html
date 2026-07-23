@@ -3,9 +3,7 @@
 {{- $items := where $navRoot.Sections "Params.sidebar.exclude" "!=" true -}}
 
 <aside class="sidebar">
-  {{- if (site.Params.search.enable | default true) }}
-    <div class="search-mobile" id="search-sidebar"></div>
-  {{- end -}}
+
   <div class="sidebar-scroll">
     <ul class="sidebar-tree sidebar-tree-mobile">
       {{- range $items.ByWeight }}
