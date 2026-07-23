@@ -1,3 +1,8 @@
+:root {
+  --hx-color-white: #d8dee9;
+  --hx-color-dark: #1c1f26;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 }
