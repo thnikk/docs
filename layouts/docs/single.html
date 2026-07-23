@@ -2,12 +2,14 @@
   <div class="page-container">
     {{ partial "sidebar.html" . }}
     <article class="content">
-      <main id="content">
-        {{ partial "breadcrumb.html" . }}
-        <div class="content-body">
+      <main id="content" class="card">
+        <div class="card-header">
           {{ if .Title }}
             <h1>{{ .Title }}</h1>
           {{ end }}
+          {{ partial "breadcrumb.html" . }}
+        </div>
+        <div class="content-body">
           {{ .Content }}
         </div>
       </main>
