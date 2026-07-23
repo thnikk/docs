@@ -3,7 +3,7 @@ title: "Springboard"
 weight: 2
 ---
 
-![Springboard](https://www.thnikk.moe/img/docs/springboard/main-black.jpg)
+![Springboard](main-black.jpg)
 
 The Springboard is a keyboard-style controller for platformers.
 
@@ -15,13 +15,13 @@ I wanted to speedrun [Bat to the Heavens](https://store.steampowered.com/app/304
 
 The layout is basically mirrored WASD with the bumpers and triggers in the corners.
 
-![Layout](https://www.thnikk.moe/img/docs/springboard/drawing.svg)
+![Layout](drawing.svg)
 
 ## Pinout
 
 If you want to mess around with remapping anything, it can be useful to see the original pinout.
 
-![Pinout](https://www.thnikk.moe/img/docs/springboard/pinout.svg)
+![Pinout](pinout.svg)
 
 ## Firmware
 

@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1363.9 463.90001"
+   width="1363.9"
+   height="463.89999"
+   version="1.1"
+   id="svg386"
+   sodipodi:docname="layout-2.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:export-filename="/home/thnikk/3D Files/Drawings/fbv2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview388"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:zoom="0.74386225"
+     inkscape:cx="898.01573"
+     inkscape:cy="-342.8054"
+     inkscape:window-width="1901"
+     inkscape:window-height="2136"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g384"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid94516"
+       originx="41.950007"
+       originy="31.949997" />
+  </sodipodi:namedview>
+  <desc
+     id="desc71">fbv2.dxf - scale = 1.0, origin = (0.0, 0.0), method = manual</desc>
+  <defs
+     id="defs86">
+    <marker
+       style="overflow:visible"
+       id="marker94153"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.8)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path94151" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker94143"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path94141" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path93865" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleInL"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.8)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path93980" />
+    </marker>
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path73" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path76" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path78" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path80" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+    <symbol
+       id="*Paper_Space0" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g88"
+     transform="translate(-150.97999,-263.848)">
+    <rect
+       style="opacity:1;fill:#dcdcdc;fill-opacity:1;stroke:#ffffff;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect95207"
+       width="1360"
+       height="460"
+       x="172.92999"
+       y="265.798"
+       transform="translate(-20)"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Visible"
+     id="g310"
+     transform="translate(-150.97999,-263.848)">
+    <path
+       d="m 760.5512,544.80906 a 7.5590668,7.5590649 0 1 0 -15.11808,0 7.5590668,7.5590649 0 1 0 15.11808,0 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path90"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1248.8477,640.31764 a 15.874156,15.87416 0 1 0 -31.7483,0 15.874156,15.87416 0 1 0 31.7483,0 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path92"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1162.1074,640.31764 a 15.874158,15.874162 0 1 0 -31.7479,0 15.874158,15.874162 0 1 0 31.7479,0 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path94"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1335.5888,640.31764 a 15.87425,15.874253 0 1 0 -31.7485,0 15.87425,15.874253 0 1 0 31.7485,0 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path96"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1075.3675,640.31764 a 15.874156,15.87416 0 1 0 -31.7483,0 15.874156,15.87416 0 1 0 31.7483,0 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path98"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1422.327,640.31764 a 15.874156,15.87416 0 1 0 -31.7483,0 15.874156,15.87416 0 1 0 31.7483,0 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path100"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 894.32756,406.83747 a 3.7795281,3.7795268 0 0 0 -3.77956,3.77949"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path102"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 894.32798,406.83699 h 99.77898"
+       id="path104"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 997.88657,410.61696 a 3.7795281,3.7795268 0 0 0 -3.77951,-3.77949"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path106"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 997.88694,410.61699 v 99.77896"
+       id="path108"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 894.32756,550.83741 a 3.7795281,3.7795268 0 0 0 -3.77956,3.77951"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path110"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 894.32798,550.83699 h 99.77898"
+       id="path112"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 997.88657,554.61692 a 3.7795281,3.7795268 0 0 0 -3.77951,-3.77951"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path114"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 997.88694,554.61696 v 99.77903"
+       id="path116"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1138.1073,442.17596 a 3.7795281,3.7795268 0 0 0 3.7794,-3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path118"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1138.1102,442.17594 h -99.78"
+       id="path120"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1034.5482,438.39648 a 3.7795281,3.7795268 0 0 0 3.7796,3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path122"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1034.5502,438.39594 v -99.779"
+       id="path124"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1282.1079,442.17596 a 3.7795281,3.7795268 0 0 0 3.7796,-3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path126"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1282.1108,442.17594 h -99.7804"
+       id="path128"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1178.5484,438.39648 a 3.7795281,3.7795268 0 0 0 3.7795,3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path130"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1178.5504,438.39594 v -99.779"
+       id="path132"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1426.1065,442.17596 a 3.7795281,3.7795268 0 0 0 3.7797,-3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path134"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1426.1094,442.17594 h -99.7781"
+       id="path136"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1322.5492,438.39648 a 3.7795281,3.7795268 0 0 0 3.7796,3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path138"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1322.5512,438.39594 v -99.779"
+       id="path140"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1138.1073,586.1759 a 3.7795281,3.7795268 0 0 0 3.7794,-3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path142"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1138.1102,586.17588 h -99.78"
+       id="path144"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1034.5482,582.39642 a 3.7795281,3.7795268 0 0 0 3.7796,3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path146"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1034.5502,582.3959 V 482.61698"
+       id="path148"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1282.1079,586.1759 a 3.7795281,3.7795268 0 0 0 3.7796,-3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path150"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1282.1108,586.17588 h -99.7804"
+       id="path152"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1178.5484,582.39642 a 3.7795281,3.7795268 0 0 0 3.7795,3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path154"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1178.5504,582.3959 V 482.61698"
+       id="path156"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1426.1065,586.1759 a 3.7795281,3.7795268 0 0 0 3.7797,-3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path158"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1426.1094,586.17588 h -99.7781"
+       id="path160"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1322.5492,582.39642 a 3.7795281,3.7795268 0 0 0 3.7796,3.77948"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path162"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1322.5512,582.3959 V 482.61698"
+       id="path164"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 598.20406,657.06225 a 3.7795281,3.7795268 0 0 0 4.86876,-2.20564"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path166"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 598.20396,657.062 504.82198,621.9079"
+       id="path168"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 502.61686,617.03902 a 3.7795281,3.7795268 0 0 0 2.2056,4.86881"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path170"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 502.61696,617.03888 35.15406,-93.38092"
+       id="path172"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 463.43747,606.32815 a 3.7795281,3.7795268 0 0 0 4.86883,-2.20564"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path174"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 463.43703,606.328 370.0561,571.1739"
+       id="path176"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 367.85034,566.30492 a 3.7795281,3.7795268 0 0 0 2.20558,4.86881"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path178"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 367.8501,566.30488 35.15488,-93.3819"
+       id="path180"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 328.67086,555.59405 a 3.7795281,3.7795268 0 0 0 4.86875,-2.20564"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path182"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 328.67107,555.594 235.28903,520.4399"
+       id="path184"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 233.0836,515.57089 a 3.7795281,3.7795268 0 0 0 2.2056,4.86874"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path186"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 233.08401,515.57096 35.15408,-93.38198"
+       id="path188"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 418.5843,431.53834 a 3.7795281,3.7795268 0 0 0 2.2056,4.86881"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path190"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 418.58395,431.53797 453.739,338.15699"
+       id="path192"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 458.60752,335.95112 a 3.7795281,3.7795268 0 0 0 -4.86883,2.20564"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path194"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 458.60705,335.95093 551.98902,371.106"
+       id="path196"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 514.17144,471.56141 a 3.7795281,3.7795268 0 0 0 4.86883,-2.20553"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path198"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 514.1719,471.56195 420.78997,436.40698"
+       id="path200"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 554.1947,375.97436 a 3.7795281,3.7795268 0 0 0 -2.20559,-4.86882"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path202"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 554.19503,375.97405 -35.15509,93.38189"
+       id="path204"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 368.69401,460.00682 a 3.7795281,3.7795268 0 0 0 -2.2056,-4.8688"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path206"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 368.6941,460.00695 -35.15406,93.38093"
+       id="path208"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 273.10672,419.98378 a 3.7795281,3.7795268 0 0 0 -4.8687,2.20552"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path210"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 273.107,419.98403 93.38108,35.15391"
+       id="path212"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 503.46054,510.74092 a 3.7795281,3.7795268 0 0 0 -2.20561,-4.8688"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path214"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 503.46097,510.74096 -35.15489,93.38202"
+       id="path216"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 407.87334,470.7178 a 3.7795281,3.7795268 0 0 0 -4.86877,2.20559"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path218"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 407.87297,470.718 93.38197,35.15394"
+       id="path220"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 638.22727,561.47502 a 3.7795281,3.7795268 0 0 0 -2.20554,-4.86879"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path222"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 638.22705,561.47496 -35.15411,93.382"
+       id="path224"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 542.64004,521.45196 a 3.7795281,3.7795268 0 0 0 -4.86878,2.20554"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path226"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 542.64002,521.45202 93.38207,35.15392"
+       id="path228"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1326.3288,478.83744 a 3.7795281,3.7795268 0 0 0 -3.7796,3.7795"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path230"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1326.3313,478.83697 h 99.7781"
+       id="path232"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1429.8862,482.61694 a 3.7795281,3.7795268 0 0 0 -3.7797,-3.7795"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path234"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1429.8895,482.61698 V 582.3959"
+       id="path236"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1182.3279,478.83744 a 3.7795281,3.7795268 0 0 0 -3.7795,3.7795"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path238"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1182.3304,478.83697 h 99.7804"
+       id="path240"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1285.8875,482.61694 a 3.7795281,3.7795268 0 0 0 -3.7796,-3.7795"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path242"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1285.8909,482.61698 V 582.3959"
+       id="path244"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1038.3278,478.83744 a 3.7795281,3.7795268 0 0 0 -3.7796,3.7795"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path246"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1038.3302,478.83697 h 99.78"
+       id="path248"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1141.8867,482.61694 a 3.7795281,3.7795268 0 0 0 -3.7794,-3.7795"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path250"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1141.8901,482.61698 V 582.3959"
+       id="path252"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1326.3288,334.83736 a 3.7795281,3.7795268 0 0 0 -3.7796,3.77954"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path254"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1326.3313,334.83693 h 99.7781"
+       id="path256"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1429.8862,338.6169 a 3.7795281,3.7795268 0 0 0 -3.7797,-3.77954"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path258"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1429.8895,338.61694 v 99.779"
+       id="path260"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1182.3279,334.83736 a 3.7795281,3.7795268 0 0 0 -3.7795,3.77954"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path262"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1182.3304,334.83693 h 99.7804"
+       id="path264"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1285.8875,338.6169 a 3.7795281,3.7795268 0 0 0 -3.7796,-3.77954"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path266"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1285.8909,338.61694 v 99.779"
+       id="path268"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1038.3278,334.83736 a 3.7795281,3.7795268 0 0 0 -3.7796,3.77954"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path270"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1038.3302,334.83693 h 99.78"
+       id="path272"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1141.8867,338.6169 a 3.7795281,3.7795268 0 0 0 -3.7794,-3.77954"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path274"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 1141.8901,338.61694 v 99.779"
+       id="path276"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 994.10706,658.17602 a 3.7795281,3.7795268 0 0 0 3.77951,-3.77955"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path278"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 994.10696,658.176 H 894.32798"
+       id="path280"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 890.548,654.39647 a 3.7795281,3.7795268 0 0 0 3.77956,3.77955"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path282"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 890.54795,654.39599 V 554.61696"
+       id="path284"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 994.10706,514.17593 a 3.7795281,3.7795268 0 0 0 3.77951,-3.77951"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path286"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 994.10696,514.17591 H 894.32798"
+       id="path288"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 890.548,510.39642 a 3.7795281,3.7795268 0 0 0 3.77956,3.77951"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path290"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 890.54795,510.39595 V 410.61699"
+       id="path292"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1429.1295,297.798 H 232.72601"
+       id="path294"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1466.9258,335.59327 a 37.795277,37.795264 0 0 0 -37.7955,-37.7952"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path296"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1466.9298,657.42 V 335.59293"
+       id="path298"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 1429.1303,695.21531 a 37.795277,37.795264 0 0 0 37.7955,-37.7952"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path300"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 232.72575,297.79807 a 37.795277,37.795264 0 0 0 -37.79528,37.7952"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path302"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 194.93,335.59293 V 657.42"
+       id="path304"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 194.93047,657.42011 a 37.795277,37.795264 0 0 0 37.79528,37.7952"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path306"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 232.72601,695.21493 H 1429.1295"
+       id="path308"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Annotations"
+     id="g384"
+     transform="translate(-150.97999,-263.848)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:85.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#c8ab37;fill-opacity:1;stroke:none"
+       x="1057.0725"
+       y="418.88434"
+       id="text7229"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227"
+         x="1057.0725"
+         y="418.88434"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:85.3333px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';fill:#c8ab37">X</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:85.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#3771c8;fill-opacity:1;stroke:none"
+       x="911.99072"
+       y="490.35025"
+       id="text7229-3"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         x="911.99072"
+         y="490.35025"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:85.3333px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';fill:#3771c8"
+         id="tspan48095">Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ab37c8;fill-opacity:1;stroke:none"
+       x="1187.3617"
+       y="410.28732"
+       id="text7229-7"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227-5"
+         x="1187.3617"
+         y="410.28732"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:64px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';fill:#ab37c8">RB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ccff;fill-opacity:1;stroke:none"
+       x="1332.9094"
+       y="411.20078"
+       id="text7229-35"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227-62"
+         x="1332.9094"
+         y="411.20078"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:64px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';fill:#00ccff">RT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:85.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#c83737;fill-opacity:1;stroke:none"
+       x="1054.199"
+       y="561.98914"
+       id="text7229-9"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227-1"
+         x="1054.199"
+         y="561.98914"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:85.3333px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';fill:#c83737">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:85.3333px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#37c871;fill-opacity:1;stroke:none"
+       x="912.46033"
+       y="634.41272"
+       id="text7229-2"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         x="912.46033"
+         y="634.41272"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:85.3333px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';fill:#37c871"
+         id="tspan74855">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#c87137;fill-opacity:1;stroke:none"
+       x="1189.0964"
+       y="554.45123"
+       id="text7229-0"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         x="1189.0964"
+         y="554.45123"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:64px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';fill:#c87137"
+         id="tspan56515">LB</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#c83771;fill-opacity:1;stroke:none"
+       x="1339.3282"
+       y="554.15948"
+       id="text7229-36"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227-0"
+         x="1339.3282"
+         y="554.15948"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:64px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';fill:#c83771">LT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1058.9592"
+       y="682.3988"
+       id="text7229-6"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227-2"
+         x="1058.9592"
+         y="682.3988"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:26.6667px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';text-align:center;text-anchor:middle">L3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1146.5527"
+       y="679.00909"
+       id="text7229-6-6"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227-2-1"
+         x="1146.5527"
+         y="679.00909"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';text-align:center;text-anchor:middle">SELECT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="753.2301"
+       y="573.10101"
+       id="text7229-6-6-7"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         x="753.2301"
+         y="573.10101"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';text-align:center;text-anchor:middle"
+         id="tspan89374">RESET</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1233.6356"
+       y="679.44543"
+       id="text7229-6-8"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227-2-7"
+         x="1233.6356"
+         y="679.44543"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';text-align:center;text-anchor:middle">HOME</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1321.1434"
+       y="679.53827"
+       id="text7229-6-9"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan7227-2-2"
+         x="1321.1434"
+         y="679.53827"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';text-align:center;text-anchor:middle">START</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:26.6667px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="1408.7258"
+       y="683.73419"
+       id="text7229-6-0"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         x="1408.7258"
+         y="683.73419"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:26.6667px;font-family:'Gotham Rounded';-inkscape-font-specification:'Gotham Rounded Light';text-align:center;text-anchor:middle"
+         id="tspan32569">R3</tspan></text>
+    <g
+       id="g94673"
+       transform="translate(-20)"
+       style="stroke-width:3.9;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/thnikk/3D Files/Drawings/rect95207.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <g
+         id="g94677"
+         transform="rotate(20.5,228.16851,-195.9289)">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 697.93,385.798 v 55 l 20,-20"
+           id="path94551" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 697.93,440.798 -20,-20"
+           id="path94553" />
+      </g>
+      <g
+         id="g94677-9"
+         transform="rotate(110.5,482.56995,319.95366)"
+         style="stroke-width:3.9;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 697.93,385.798 v 55 l 20,-20"
+           id="path94551-2" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 697.93,440.798 -20,-20"
+           id="path94553-2" />
+      </g>
+      <g
+         id="g94677-8"
+         transform="rotate(-159.5,601.67191,425.57372)"
+         style="stroke-width:3.9;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 697.93,385.798 v 55 l 20,-20"
+           id="path94551-9" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 697.93,440.798 -20,-20"
+           id="path94553-7" />
+      </g>
+      <g
+         id="g94677-3"
+         transform="rotate(-69.5,771.00522,579.15797)"
+         style="stroke-width:3.9;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 697.93,385.798 v 55 l 20,-20"
+           id="path94551-6" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3.9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 697.93,440.798 -20,-20"
+           id="path94553-1" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -3,7 +3,7 @@ title: "Fightboard v3"
 weight: 2
 ---
 
-![FBMX v3](https://thnikk.moe/img/docs/fightboard/fbmx-v3.jpeg)
+![FBMX v3](fbmx-v3.jpeg)
 
 The v3 version of the Fightboard adds a display and switches to new electronics and firmware.
 
@@ -11,13 +11,13 @@ The v3 version of the Fightboard adds a display and switches to new electronics 
 
 ### Ergonomic layout
 
-![layout](https://thnikk.moe/img/docs/fightboard/layout-v3.svg)
+![layout](layout-v3.svg)
 
 The Fightboard uses a combination of an arrow/wasd cluster at a 20% angle and action buttons following the traditional arcade stick layout but with the spacing of keyboard keys.
 
 ### Hot-swap sockets
 
-![hot-swap sockets](https://thnikk.moe/img/docs/fightboard/socket-v3.jpeg)
+![hot-swap sockets](socket-v3.jpeg)
 
 Unhappy with your switch choice? Want different zones with different types of switches? All you have to do is pull them out and swap them with whatever you prefer, no soldering required.
 
@@ -84,18 +84,18 @@ The Fightboard is only compatible with PC and the Nintendo Switch out of the box
 
 Holding down select and start will let you change the settings shown below:
 
-![Main settings](https://thnikk.moe/img/docs/fightboard/fb-v3-settings-1.svg)
+![Main settings](fb-v3-settings-1.svg)
 
 ### SOCD settings
 
 Holding down home and start will let you change the SOCD settings:
 
-![SOCD settings](https://thnikk.moe/img/docs/fightboard/fb-v3-settings-2.svg)
+![SOCD settings](fb-v3-settings-2.svg)
 
 ### Input modes
 
 Holding down one of the keys at boot will change the input mode. This setting is saved and will persist across reboots.
 
-![Input settings](https://thnikk.moe/img/docs/fightboard/fb-v3-settings-3.svg)
+![Input settings](fb-v3-settings-3.svg)
 
 For all configuration, please refer to the official [GP2040 documentation](https://gp2040.info/#/usage).

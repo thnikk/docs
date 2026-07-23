@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 633.21819 195.9292"
+   width="633.2182"
+   height="195.9292"
+   version="1.1"
+   id="svg238"
+   sodipodi:docname="fbmx-zero-settings-1.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview240"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="3.4493828"
+     inkscape:cx="323.39119"
+     inkscape:cy="144.95347"
+     inkscape:window-width="3816"
+     inkscape:window-height="2136"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g236" />
+  <desc
+     id="desc180">fbmx-zero.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs194">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path182" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path185" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path187" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path189" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g236"
+     transform="translate(259.96456,-1006.5551)">
+    <path
+       d="m 355.7458,1007.0551 a 17.007874,17.007874 0 0 1 17.00787,17.0079 v 160.9134 a 17.007874,17.007874 0 0 1 -17.00787,17.0079 h -598.20246 a 17.007874,17.007874 0 0 1 -17.0079,-17.0079 V 1024.063 a 17.007874,17.007874 0 0 1 17.0079,-17.0079 z"
+       style="display:inline;fill:#dcdcdc;fill-opacity:1;stroke:#000000;stroke-width:1.88976;stroke-dasharray:none"
+       id="path232" />
+    <path
+       d="m -15.788863,1169.5559 h 79.37 a 5.669291,5.669291 0 0 0 5.6693,-5.6693 v -37.7953 a 5.669291,5.669291 0 0 0 -5.6693,-5.6693 h -79.37 a 5.669291,5.669291 0 0 0 -5.6693,5.6693 v 37.7953 a 5.669291,5.669291 0 0 0 5.6693,5.6693 z"
+       style="fill:#000000;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path196" />
+    <path
+       d="m 141.48434,1111.4646 v -49.8898 a 3.250394,3.250394 0 0 0 -3.2504,-3.2504 H 88.344237 a 3.250394,3.250394 0 0 0 -3.2504,3.2504 v 49.8898 a 3.250394,3.250394 0 0 0 3.2504,3.2504 h 49.889703 a 3.250394,3.250394 0 0 0 3.2504,-3.2504 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path198" />
+    <path
+       d="m -91.207363,1117.6157 -17.577097,46.6908 a 3.250394,3.250394 0 0 0 1.8968,4.1872 l 46.690797,17.5771 a 3.250394,3.250394 0 0 0 4.1871,-1.8968 l 17.5772,-46.6908 a 3.250394,3.250394 0 0 0 -1.8968,-4.1871 l -46.6908,-17.5772 a 3.250394,3.250394 0 0 0 -4.1872,1.8968 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path200" />
+    <path
+       d="m 301.09383,1097.5748 v 49.8898 a 3.250394,3.250394 0 0 0 3.25039,3.2504 h 49.88977 a 3.250394,3.250394 0 0 0 3.25039,-3.2504 v -49.8898 a 3.250394,3.250394 0 0 0 -3.25039,-3.2504 h -49.88977 a 3.250394,3.250394 0 0 0 -3.25039,3.2504 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path202" />
+    <path
+       d="m 157.09384,1097.5748 v 49.8898 a 3.250394,3.250394 0 0 0 3.2504,3.2504 h 49.88975 a 3.250394,3.250394 0 0 0 3.25039,-3.2504 v -49.8898 a 3.250394,3.250394 0 0 0 -3.25039,-3.2504 h -49.88975 a 3.250394,3.250394 0 0 0 -3.2504,3.2504 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path204" />
+    <path
+       d="m -225.97396,1066.8816 -17.5772,46.6908 a 3.250394,3.250394 0 0 0 1.8968,4.1872 l 46.6908,17.5771 a 3.250394,3.250394 0 0 0 4.1872,-1.8968 l 17.5771,-46.6908 a 3.250394,3.250394 0 0 0 -1.8968,-4.1871 l -46.6908,-17.5772 a 3.250394,3.250394 0 0 0 -4.1871,1.8968 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path206" />
+    <path
+       d="m 157.09384,1025.5748 v 49.8898 a 3.250394,3.250394 0 0 0 3.2504,3.2504 h 49.88975 a 3.250394,3.250394 0 0 0 3.25039,-3.2504 v -49.8898 a 3.250394,3.250394 0 0 0 -3.25039,-3.2504 h -49.88975 a 3.250394,3.250394 0 0 0 -3.2504,3.2504 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path208" />
+    <path
+       d="m 161.06234,1176.4252 a 9.864567,9.864567 0 0 0 19.72913,0 9.864567,9.864567 0 0 0 -19.72913,0 z"
+       style="fill:#000000;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path210" />
+    <path
+       d="m 204.43241,1176.4252 a 9.86457,9.86457 0 0 0 19.72914,0 9.86457,9.86457 0 0 0 -19.72914,0 z"
+       style="fill:#c83737;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path212" />
+    <path
+       d="m 247.80249,1176.4252 a 9.86457,9.86457 0 0 0 19.72914,0 9.86457,9.86457 0 0 0 -19.72914,0 z"
+       style="fill:#000000;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path214" />
+    <path
+       d="m 291.17257,1176.4252 a 9.864567,9.864567 0 0 0 19.72913,0 9.864567,9.864567 0 0 0 -19.72913,0 z"
+       style="fill:#c83737;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path216" />
+    <path
+       d="m 334.54265,1176.4252 a 9.864567,9.864567 0 0 0 19.72913,0 9.864567,9.864567 0 0 0 -19.72913,0 z"
+       style="fill:#000000;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path218" />
+    <path
+       d="m 229.09383,1097.5748 v 49.8898 a 3.250394,3.250394 0 0 0 3.25039,3.2504 h 49.88977 a 3.250394,3.250394 0 0 0 3.25039,-3.2504 v -49.8898 a 3.250394,3.250394 0 0 0 -3.25039,-3.2504 h -49.88977 a 3.250394,3.250394 0 0 0 -3.25039,3.2504 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path220" />
+    <path
+       d="m -158.59066,1092.2487 -17.5772,46.6908 a 3.250394,3.250394 0 0 0 1.8968,4.1871 l 46.6908,17.5772 a 3.250394,3.250394 0 0 0 4.1872,-1.8968 l 17.5772,-46.6908 a 3.250394,3.250394 0 0 0 -1.8968,-4.1872 l -46.6908,-17.5771 a 3.250394,3.250394 0 0 0 -4.1872,1.8968 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path222" />
+    <path
+       d="m 141.48434,1183.4646 v -49.8898 a 3.250394,3.250394 0 0 0 -3.2504,-3.2504 H 88.344237 a 3.250394,3.250394 0 0 0 -3.2504,3.2504 v 49.8898 a 3.250394,3.250394 0 0 0 3.2504,3.2504 h 49.889703 a 3.250394,3.250394 0 0 0 3.2504,-3.2504 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path224" />
+    <path
+       d="m 229.09383,1025.5748 v 49.8898 a 3.250394,3.250394 0 0 0 3.25039,3.2504 h 49.88977 a 3.250394,3.250394 0 0 0 3.25039,-3.2504 v -49.8898 a 3.250394,3.250394 0 0 0 -3.25039,-3.2504 h -49.88977 a 3.250394,3.250394 0 0 0 -3.25039,3.2504 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path226" />
+    <path
+       d="m -82.345663,1040.5457 -46.690797,-17.5772 a 3.250394,3.250394 0 0 0 -4.1871,1.8968 l -17.5772,46.6908 a 3.250394,3.250394 0 0 0 1.8968,4.1872 l 46.6908,17.5772 a 3.250394,3.250394 0 0 0 4.187197,-1.8968 l 17.5771,-46.6908 a 3.250394,3.250394 0 0 0 -1.8968,-4.1872 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path228" />
+    <path
+       d="m 301.09383,1025.5748 v 49.8898 a 3.250394,3.250394 0 0 0 3.25039,3.2504 h 49.88977 a 3.250394,3.250394 0 0 0 3.25039,-3.2504 v -49.8898 a 3.250394,3.250394 0 0 0 -3.25039,-3.2504 h -49.88977 a 3.250394,3.250394 0 0 0 -3.25039,3.2504 z"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none;fill-opacity:1"
+       id="path230" />
+    <path
+       d="m 35.801637,1069.7197 a 5.102362,5.102362 0 0 0 10.2047,0 5.102362,5.102362 0 0 0 -10.2047,0 z"
+       style="fill:none;stroke:#000000;stroke-width:1.88976378;stroke-dasharray:none"
+       id="path234" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="112.64837"
+       y="1146.9912"
+       id="text1097"><tspan
+         sodipodi:role="line"
+         id="tspan1095"
+         x="112.64837"
+         y="1146.9912"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle">Prev</tspan><tspan
+         sodipodi:role="line"
+         x="112.64837"
+         y="1163.6578"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1149">LED</tspan><tspan
+         sodipodi:role="line"
+         x="112.64837"
+         y="1180.3245"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1151">Anim</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="112.84341"
+       y="1074.4932"
+       id="text1097-3"><tspan
+         sodipodi:role="line"
+         x="112.84341"
+         y="1074.4932"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1151-5">Next</tspan><tspan
+         sodipodi:role="line"
+         x="112.84341"
+         y="1091.1598"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1335">LED</tspan><tspan
+         sodipodi:role="line"
+         x="112.84341"
+         y="1107.8264"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1337">Anim</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="269.90582"
+       y="1098.8318"
+       id="text1097-3-7"
+       transform="rotate(20.896313)"><tspan
+         sodipodi:role="line"
+         x="269.90582"
+         y="1098.8318"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1337-2">D-pad</tspan><tspan
+         sodipodi:role="line"
+         x="269.90582"
+         y="1115.4984"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1492">Mode</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="174.67815"
+       y="1094.0576"
+       id="text1097-3-7-2"
+       transform="rotate(19.783586)"><tspan
+         sodipodi:role="line"
+         x="174.67815"
+         y="1094.0576"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1337-2-8">Left</tspan><tspan
+         sodipodi:role="line"
+         x="174.67815"
+         y="1110.7242"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1526">Stick</tspan><tspan
+         sodipodi:role="line"
+         x="174.67815"
+         y="1127.3909"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1492-9">Mode</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="327.37921"
+       y="1093.7893"
+       id="text1097-3-7-2-7"
+       transform="rotate(20.179993)"><tspan
+         sodipodi:role="line"
+         x="327.37921"
+         y="1093.7893"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1565">Right</tspan><tspan
+         sodipodi:role="line"
+         x="327.37921"
+         y="1110.4559"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1526-6">Stick</tspan><tspan
+         sodipodi:role="line"
+         x="327.37921"
+         y="1127.1226"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1492-9-1">Mode</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="184.63048"
+       y="1037.2073"
+       id="text1097-3-3"><tspan
+         sodipodi:role="line"
+         x="184.63048"
+         y="1037.2073"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1242">LED</tspan><tspan
+         sodipodi:role="line"
+         x="184.63048"
+         y="1053.8739"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1250">Bright</tspan><tspan
+         sodipodi:role="line"
+         x="184.63048"
+         y="1070.5405"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1254">Up</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="256.25934"
+       y="1036.8796"
+       id="text1097-3-3-0"><tspan
+         sodipodi:role="line"
+         x="256.25934"
+         y="1036.8796"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1242-9">LED</tspan><tspan
+         sodipodi:role="line"
+         x="256.25934"
+         y="1053.5463"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1250-3">Param</tspan><tspan
+         sodipodi:role="line"
+         x="256.25934"
+         y="1070.2129"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1254-6">Up</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="328.49722"
+       y="1037.1436"
+       id="text1097-3-3-0-1"><tspan
+         sodipodi:role="line"
+         x="328.49722"
+         y="1037.1436"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1254-6-9">Next</tspan><tspan
+         sodipodi:role="line"
+         x="328.49722"
+         y="1053.8102"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1573">Pressed</tspan><tspan
+         sodipodi:role="line"
+         x="328.49722"
+         y="1070.4768"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1575">Color</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="329.38947"
+       y="1109.3728"
+       id="text1097-3-3-0-1-2"><tspan
+         sodipodi:role="line"
+         x="329.38947"
+         y="1109.3728"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1254-6-9-3">Prev</tspan><tspan
+         sodipodi:role="line"
+         x="329.38947"
+         y="1126.0394"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1582">Pressed</tspan><tspan
+         sodipodi:role="line"
+         x="329.38947"
+         y="1142.7061"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1584">Color</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="256.49387"
+       y="1109.1809"
+       id="text1097-3-3-0-0"><tspan
+         sodipodi:role="line"
+         x="256.49387"
+         y="1109.1809"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1242-9-6">LED</tspan><tspan
+         sodipodi:role="line"
+         x="256.49387"
+         y="1125.8475"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1250-3-2">Param</tspan><tspan
+         sodipodi:role="line"
+         x="256.49387"
+         y="1142.5142"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1254-6-6">Down</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:nunito;-inkscape-font-specification:nunito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="183.56519"
+       y="1109.2239"
+       id="text1097-3-3-9"><tspan
+         sodipodi:role="line"
+         x="183.56519"
+         y="1109.2239"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1242-1">LED</tspan><tspan
+         sodipodi:role="line"
+         x="183.56519"
+         y="1125.8905"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1250-2">Bright</tspan><tspan
+         sodipodi:role="line"
+         x="183.56519"
+         y="1142.5571"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:13.3333px;font-family:nunito;-inkscape-font-specification:'nunito Bold';text-align:center;text-anchor:middle"
+         id="tspan1254-7">Down</tspan></text>
+  </g>
+</svg>

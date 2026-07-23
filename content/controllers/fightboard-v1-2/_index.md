@@ -3,7 +3,7 @@ title: "Fightboard v1/v2"
 weight: 1
 ---
 
-![Main](https://thnikk.moe/img/docs/fightboard/fblp.jpg)
+![Main](fblp.jpg)
 
 Have you ever been frustrated with fightsticks? Do you want something to use on your desk that isn't a massive box you have to put away somewhere when you're not using it? Do you prefer the natural spacing of a keyboard over the finger-stretching traditional arcade buttons? Maybe you want something that you can easily use on-the-go. The Fightboard aims to solve all of those problems.
 
@@ -11,13 +11,13 @@ Have you ever been frustrated with fightsticks? Do you want something to use on 
 
 ### Ergonomic layout
 
-![layout](https://thnikk.moe/img/docs/fightboard/layout-2.svg)
+![layout](layout-2.svg)
 
 The Fightboard uses a combination of an arrow/wasd cluster at a 20% angle and action buttons following the traditional arcade stick layout but with the spacing of keyboard keys.
 
 ### Hot-swap sockets
 
-![hot-swap sockets](https://thnikk.moe/img/docs/fightboard/socket.jpg)
+![hot-swap sockets](socket.jpg)
 
 Unhappy with your switch choice? Want different zones with different types of switches? All you have to do is pull them out and swap them with whatever you prefer, no soldering required.
 
@@ -102,7 +102,7 @@ From the main menu, you can press one of the 8 keys on the right to switch betwe
 You can press the start button after entering the menu to enter the button swapper. In this mode, pressing one of the 8 buttons on the right will make it pulse quickly. Press another button and the two buttons will swap places, along with their colors.
 
 <video width="100%" controls>
-    <source src="https://thnikk.moe/files/videos/remap.mp4" type="video/mp4">
+    <source src="remap.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -111,7 +111,7 @@ You can press the start button after entering the menu to enter the button swapp
 You can also press back on the main menu to enter color changing mode. Pressing one of the keys will cycle through RGB for that key.
 
 <video width="100%" controls>
-    <source src="https://thnikk.moe/files/videos/color.mp4" type="video/mp4">
+    <source src="color.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -124,7 +124,7 @@ Remapping and color changing are only available for the 8 keys on the right. The
 Pressing L3 and R3 simultaneously in the main menu will clear the current profile back to its default settings.
 
 <video width="100%" controls>
-    <source src="https://thnikk.moe/files/videos/reset.mp4" type="video/mp4">
+    <source src="reset.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -133,6 +133,6 @@ Pressing L3 and R3 simultaneously in the main menu will clear the current profil
 Pressing the home button will always take you one step back out of a menu, meaning it will take you to the main menu on the color changer or remapper and exit from the main menu.
 
 <video width="100%" controls>
-    <source src="https://thnikk.moe/files/videos/menuClose.mp4" type="video/mp4">
+    <source src="menuClose.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
