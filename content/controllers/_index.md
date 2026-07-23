@@ -1,6 +1,6 @@
 ---
 title: "Controllers"
-weight: 2
+weight: 3
 sidebar:
   toggleOnly: true
 ---

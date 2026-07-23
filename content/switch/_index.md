@@ -1,6 +1,6 @@
 ---
 title: "Changing Switches"
-weight: 20
+weight: 4
 ---
 
 This short guide will walk you through changing your keypad's switches.

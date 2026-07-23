@@ -1,6 +1,6 @@
 ---
 title: "Osu! Keypads"
-weight: 1
+weight: 2
 sidebar:
   toggleOnly: true
 ---

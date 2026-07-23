@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting Guide"
-weight: 30
+weight: 5
 ---
 
 This guide will walk you through steps to either get your keypad back up and running or properly diagnose the problem.

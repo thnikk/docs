@@ -1,6 +1,6 @@
 ---
 title: "Buyer's Guide"
-weight: 2
+weight: 1
 ---
 
 A lot of people have had a lot of questions about my keypads for determining which model and what parts would be better for them, so I'll outline the differences here.
