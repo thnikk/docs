@@ -1,0 +1,24 @@
+{{- $page := . -}}
+{{- $navRoot := cond (eq site.Home.Type "docs") site.Home site.Home.FirstSection -}}
+{{- $items := where $navRoot.Sections "Params.sidebar.exclude" "!=" true -}}
+
+{{- range $items.ByWeight }}
+  {{- $active := or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) -}}
+  {{- $children := where (union .RegularPages .Sections) "Params.sidebar.exclude" "!=" true -}}
+  {{- if $children -}}
+    <div class="nav-dropdown{{ if $active }} active{{ end }}">
+      <button class="nav-dropdown-trigger" aria-expanded="false">
+        {{ .Title }}
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <div class="nav-dropdown-menu">
+        {{- range $children.ByWeight -}}
+          {{- $ca := or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) -}}
+          <a class="nav-dropdown-link{{ if $ca }} active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end -}}
+      </div>
+    </div>
+  {{- else -}}
+    <a class="nav-link{{ if or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) }} active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{- end -}}
+{{- end -}}

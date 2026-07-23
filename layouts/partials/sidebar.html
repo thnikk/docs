@@ -1,48 +1,50 @@
-{{- $context := .context -}}
+{{- $page := . -}}
+{{- $navRoot := cond (eq site.Home.Type "docs") site.Home site.Home.FirstSection -}}
+{{- $items := where $navRoot.Sections "Params.sidebar.exclude" "!=" true -}}
 
-{{- $disableSidebar := .disableSidebar | default false -}}
-{{- $displayPlaceholder := .displayPlaceholder | default false -}}
-
-{{- $navRoot := cond (eq site.Home.Type "docs") site.Home $context.FirstSection -}}
-{{- $pageURL := $context.RelPermalink -}}
-
-{{- if .context.Params.sidebar.hide -}}
-  {{- $disableSidebar = true -}}
-  {{- $displayPlaceholder = false -}}
-{{- end -}}
-
-{{- $sidebarClass := "sidebar" -}}
-{{- if $disableSidebar -}}
-  {{- if $displayPlaceholder -}}
-    {{- $sidebarClass = "sidebar sidebar-placeholder" -}}
-  {{- else -}}
-    {{- $sidebarClass = "sidebar sidebar-hidden" -}}
-  {{- end -}}
-{{- end -}}
-
-<aside class="{{ $sidebarClass }}">
-  {{- if (site.Params.search.enable | default true) -}}
+<aside class="sidebar">
+  {{- if (site.Params.search.enable | default true) }}
     <div class="search-mobile" id="search-sidebar"></div>
   {{- end -}}
   <div class="sidebar-scroll">
     <ul class="sidebar-tree sidebar-tree-mobile">
-      {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL) -}}
-      {{ template "sidebar-footer" }}
+      {{- range $items.ByWeight }}
+        {{- $active := or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) -}}
+        {{- $children := where (union .RegularPages .Sections) "Params.sidebar.exclude" "!=" true -}}
+        {{- if $children -}}
+          <li class="{{ if $active }}open{{ end }}">
+            <div class="sidebar-item">
+              <a class="sidebar-link sidebar-link-children{{ if $active }} sidebar-link-active{{ end }}" href="#" role="button" onclick="event.preventDefault();this.closest('li').classList.toggle('open');">
+                <span>{{ .Title }}</span>
+              </a>
+              <button type="button" class="sidebar-collapsible" aria-label="Toggle section" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+            <div class="sidebar-children">
+              <ul>
+                {{- range $children.ByWeight -}}
+                  {{- $ca := or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) -}}
+                  <li>
+                    <div class="sidebar-item">
+                      <a class="sidebar-link{{ if $ca }} sidebar-link-active{{ end }}" href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>
+                    </div>
+                  </li>
+                {{- end -}}
+              </ul>
+            </div>
+          </li>
+        {{- else -}}
+          <li>
+            <div class="sidebar-item">
+              <a class="sidebar-link{{ if or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) }} sidebar-link-active{{ end }}" href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>
+            </div>
+          </li>
+        {{- end -}}
+      {{- end -}}
     </ul>
-
-    {{- if $disableSidebar -}}
-      {{- if $displayPlaceholder }}<div class="sidebar-placeholder-block"></div>{{ end -}}
-      {{ $context.Store.Set "enableFooterSwitches" true }}
-    {{- else -}}
-      <ul class="sidebar-tree sidebar-tree-desktop">
-        {{ template "sidebar-main" (dict "context" $navRoot "page" $context  "pageURL" $pageURL) }}
-        {{ template "sidebar-footer" }}
-      </ul>
-    {{ end -}}
   </div>
-  {{ $switchesClass := cond $disableSidebar "hide-desktop" "" -}}
-
-  <div class="sidebar-switches {{ $switchesClass }}">
+  <div class="sidebar-switches">
     <div class="theme-switch">
       <button class="theme-btn" data-theme="auto" aria-label="Auto theme"><i class="fa-solid fa-circle-half-stroke"></i></button>
       <button class="theme-btn" data-theme="light" aria-label="Light theme"><i class="fa-solid fa-sun"></i></button>
@@ -50,248 +52,3 @@
     </div>
   </div>
 </aside>
-
-{{- define "sidebar-main" -}}
-  {{ template "sidebar-tree" (dict "context" .context "level" 0 "page" .page "pageURL" .pageURL "toc" (.toc | default false)) }}
-{{- end -}}
-
-{{- define "sidebar-tree" -}}
-  {{- if ge .level 4 -}}
-    {{- return -}}
-  {{- end -}}
-
-  {{- $context := .context -}}
-  {{- $page := .page }}
-  {{- $pageURL := .page.RelPermalink -}}
-  {{- $level := .level -}}
-  {{- $toc := .toc | default false -}}
-  {{- $useMainMenu := and (eq $level 0) $toc -}}
-  {{- $mainMenuEntries := slice -}}
-
-  {{- $items := slice -}}
-  {{- if $useMainMenu -}}
-    {{- range $menuItem := site.Menus.main -}}
-      {{- $menuType := $menuItem.Params.type | default "" -}}
-      {{- $isIconOnly := and $menuItem.Params.icon (ne $menuType "link") -}}
-      {{- if or (eq $menuType "search") (eq $menuType "theme-toggle") (eq $menuType "language-switch") $isIconOnly -}}
-        {{- continue -}}
-      {{- end -}}
-
-      {{- $menuTitle := or (T $menuItem.Identifier) $menuItem.Name -}}
-      {{- if $menuItem.HasChildren -}}
-        {{- $childEntries := slice -}}
-        {{- range $childItem := $menuItem.Children -}}
-          {{- $childType := $childItem.Params.type | default "" -}}
-          {{- $childIsIconOnly := and $childItem.Params.icon (ne $childType "link") -}}
-          {{- if or (eq $childType "search") (eq $childType "theme-toggle") (eq $childType "language-switch") $childIsIconOnly -}}
-            {{- continue -}}
-          {{- end -}}
-
-          {{- $childTitle := or (T $childItem.Identifier) $childItem.Name -}}
-          {{- with $childItem.Page -}}
-            {{- if ne .Params.sidebar.exclude true -}}
-              {{- $childEntries = $childEntries | append (dict "title" $childTitle "link" .RelPermalink) -}}
-            {{- end -}}
-            {{- continue -}}
-          {{- end -}}
-
-          {{- $childLink := $childItem.URL -}}
-          {{- with $childItem.PageRef -}}
-            {{- if hasPrefix . "/" -}}
-              {{- $childLink = relLangURL (strings.TrimPrefix "/" .) -}}
-            {{- end -}}
-          {{- end -}}
-          {{- if $childLink -}}
-            {{- $childEntries = $childEntries | append (dict "title" $childTitle "link" $childLink) -}}
-          {{- end -}}
-        {{- end -}}
-
-        {{- if gt (len $childEntries) 0 -}}
-          {{- $mainMenuEntries = $mainMenuEntries | append (dict "type" "group" "title" $menuTitle "children" $childEntries) -}}
-        {{- end -}}
-        {{- continue -}}
-      {{- end -}}
-
-      {{- with $menuItem.Page -}}
-        {{- if ne .Params.sidebar.exclude true -}}
-          {{- $mainMenuEntries = $mainMenuEntries | append (dict "type" "page" "item" . "title" $menuTitle) -}}
-        {{- end -}}
-        {{- continue -}}
-      {{- end -}}
-
-      {{- $link := $menuItem.URL -}}
-      {{- with $menuItem.PageRef -}}
-        {{- if hasPrefix . "/" -}}
-          {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
-        {{- end -}}
-      {{- end -}}
-      {{- if $link -}}
-        {{- $mainMenuEntries = $mainMenuEntries | append (dict "type" "url" "link" $link "title" $menuTitle) -}}
-      {{- end -}}
-    {{- end -}}
-  {{- else -}}
-    {{- $items = where (union .context.RegularPages .context.Sections) "Params.sidebar.exclude" "!=" true -}}
-  {{- end -}}
-
-  {{- $hasItems := gt (len $items) 0 -}}
-  {{- if $useMainMenu -}}
-    {{- $hasItems = gt (len $mainMenuEntries) 0 -}}
-  {{- end -}}
-
-  {{- if $hasItems -}}
-    {{- if eq $level 0 -}}
-      {{- if $useMainMenu -}}
-        {{- range $entry := $mainMenuEntries -}}
-          {{- if eq (index $entry "type") "page" -}}
-            {{- $item := index $entry "item" -}}
-            {{- if $item.Params.sidebar.separator -}}
-              <li class="sidebar-separator">
-                <span>{{ index $entry "title" }}</span>
-              </li>
-            {{- else -}}
-              {{- $active := eq (strings.TrimSuffix "/" $pageURL) (strings.TrimSuffix "/" $item.RelPermalink) -}}
-              {{- $shouldOpen := or ($item.Params.sidebar.open) ($item.IsAncestor $page) $active | default true }}
-              <li class="{{ if $shouldOpen }}open{{ end }}">
-                {{- template "sidebar-item-link" dict "context" $item "active" $active "open" $shouldOpen "title" (index $entry "title") "link" $item.RelPermalink -}}
-                {{- if and $toc $active (ne $item.Params.toc false) -}}
-                  {{- template "sidebar-toc" dict "page" $item -}}
-                {{- end -}}
-                {{- template "sidebar-tree" dict "context" $item "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc -}}
-              </li>
-            {{- end -}}
-          {{- else if eq (index $entry "type") "group" -}}
-            <li class="open">
-              <div class="sidebar-item">
-                <span class="sidebar-group-label">
-                  {{- index $entry "title" -}}
-                </span>
-              </div>
-              <div class="sidebar-children">
-                <ul>
-                  {{- range $child := index $entry "children" -}}
-                    {{- $link := index $child "link" -}}
-                    {{- $active := eq (strings.TrimSuffix "/" $pageURL) (strings.TrimSuffix "/" $link) -}}
-                    <li>
-                      {{- template "sidebar-item-link" dict "active" $active "open" false "title" (index $child "title") "link" $link -}}
-                    </li>
-                  {{- end -}}
-                </ul>
-              </div>
-            </li>
-          {{- else -}}
-            {{- $link := index $entry "link" -}}
-            {{- $active := eq (strings.TrimSuffix "/" $pageURL) (strings.TrimSuffix "/" $link) -}}
-            <li>{{ template "sidebar-item-link" dict "active" $active "open" false "title" (index $entry "title") "link" $link }}</li>
-          {{- end -}}
-        {{- end -}}
-      {{- else -}}
-        {{- range $items.ByWeight }}
-          {{- if .Params.sidebar.separator -}}
-            <li class="sidebar-separator">
-              <span>{{ partial "utils/title" . }}</span>
-            </li>
-          {{- else -}}
-            {{- $active := eq $pageURL .RelPermalink -}}
-            {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
-            <li class="{{ if $shouldOpen }}open{{ end }}">
-              {{- $linkTitle := partial "utils/title" . -}}
-              {{- template "sidebar-item-link" dict "context" . "active" $active "open" $shouldOpen "title" $linkTitle "link" .RelPermalink -}}
-              {{- if and $toc $active (ne .Params.toc false) -}}
-                {{- template "sidebar-toc" dict "page" . -}}
-              {{- end -}}
-              {{- template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc -}}
-            </li>
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
-    {{- else -}}
-      <div class="sidebar-children">
-        <ul>
-          {{- range $items.ByWeight }}
-            {{- $active := eq $pageURL .RelPermalink -}}
-            {{- $shouldOpen := or (.Params.sidebar.open) (.IsAncestor $page) $active | default true }}
-            {{- $linkTitle := partial "utils/title" . -}}
-            <li class="{{ if $shouldOpen }}open{{ end }}">
-              {{- template "sidebar-item-link" dict "context" . "active" $active "open" $shouldOpen "title" $linkTitle "link" .RelPermalink -}}
-              {{- if and $toc $active (ne .Params.toc false) -}}
-                {{ template "sidebar-toc" dict "page" . }}
-              {{- end }}
-              {{ template "sidebar-tree" dict "context" . "page" $page "pageURL" $pageURL "level" (add $level 1) "toc" $toc }}
-            </li>
-          {{- end -}}
-        </ul>
-      </div>
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-
-{{- define "sidebar-toc" -}}
-  {{ $page := .page }}
-  {{ with $page.Fragments.Headings }}
-    <ul class="sidebar-toc-list">
-      {{- range . }}
-        {{- with .Headings }}
-          {{- range . -}}
-            <li>
-              <a
-                href="#{{ anchorize .ID }}"
-                class="sidebar-toc-link"
-              >
-                {{- .Title | safeHTML | plainify | htmlUnescape -}}
-              </a>
-            </li>
-          {{ end -}}
-        {{ end -}}
-      {{ end -}}
-    </ul>
-  {{ end }}
-{{- end -}}
-
-{{- define "sidebar-footer" -}}
-  {{- range site.Menus.sidebar -}}
-    {{- $name := or (T .Identifier) .Name -}}
-    {{ if eq .Params.type "separator" }}
-      <li class="sidebar-separator">
-        <span>{{ $name }}</span>
-      </li>
-    {{ else }}
-      {{- $link := .URL -}}
-      {{- with .PageRef -}}
-        {{- if hasPrefix . "/" -}}
-          {{- $link = relLangURL (strings.TrimPrefix "/" .) -}}
-        {{- end -}}
-      {{- end -}}
-      <li>{{ template "sidebar-item-link" dict "active" false "open" false "title" $name "link" $link }}</li>
-    {{ end }}
-  {{- end -}}
-{{- end -}}
-
-{{- define "sidebar-item-link" -}}
-  {{- $external := strings.HasPrefix .link "http" -}}
-  {{- $open := .open | default true -}}
-  {{- $hasChildren := false -}}
-  {{- with .context }}{{ if or .RegularPages .Sections }}{{ $hasChildren = true }}{{ end }}{{ end -}}
-  {{- $toggleOnly := and $hasChildren (.context.Params.sidebar.toggleOnly | default false) -}}
-  <div class="sidebar-item" data-active="{{ if .active }}true{{ else }}false{{ end }}">
-    <a
-      class="sidebar-link{{ if $hasChildren }} sidebar-link-children{{ end }}{{ if .active }} sidebar-link-active{{ end }}"
-      href="{{ if $toggleOnly }}#{{ else }}{{ .link }}{{ end }}"
-      {{ if $toggleOnly -}}
-        role="button"
-        onclick="event.preventDefault();this.closest('li').classList.toggle('open');"
-      {{- else if $external -}}target="_blank" rel="noreferrer"
-      {{- end -}}
-    >
-      <span>{{- .title -}}</span>
-    </a>
-    {{- if $hasChildren }}
-      <button type="button" class="sidebar-collapsible" aria-label="Toggle section" aria-expanded="{{ if $open }}true{{ else }}false{{ end }}">
-        {{- template "sidebar-collapsible-button" -}}
-      </button>
-    {{- end }}
-  </div>
-{{- end -}}
-
-{{- define "sidebar-collapsible-button" -}}
-  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" focusable="false"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-{{- end -}}
