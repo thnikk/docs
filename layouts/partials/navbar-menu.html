@@ -5,9 +5,16 @@
 {{- range $items.ByWeight }}
   {{- $active := or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) -}}
   {{- $children := where (union .RegularPages .Sections) "Params.sidebar.exclude" "!=" true -}}
+  {{- $dir := strings.TrimRight "/" .File.Dir -}}
+  {{- $icon := "fa-link" -}}
+  {{- if eq $dir "keypads" }}{{ $icon = "fa-keyboard" }}{{ end -}}
+  {{- if eq $dir "controllers" }}{{ $icon = "fa-gamepad" }}{{ end -}}
+  {{- if eq $dir "guides" }}{{ $icon = "fa-book" }}{{ end -}}
+  
   {{- if $children -}}
     <div class="nav-dropdown{{ if $active }} active{{ end }}">
       <button class="nav-dropdown-trigger" aria-expanded="false">
+        <i class="fa-solid {{ $icon }}"></i>
         {{ .Title }}
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
       </button>
@@ -19,6 +26,9 @@
       </div>
     </div>
   {{- else -}}
-    <a class="nav-link{{ if or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) }} active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <a class="nav-link{{ if or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) }} active{{ end }}" href="{{ .RelPermalink }}">
+      <i class="fa-solid {{ $icon }}"></i>
+      {{ .Title }}
+    </a>
   {{- end -}}
 {{- end -}}

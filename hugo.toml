@@ -1,6 +1,6 @@
 baseURL = 'https://thnikk.github.io/docs-2026'
 locale = 'en-us'
-title = 'thnikk'
+title = 'Docs'
 
 [markup]
   [markup.goldmark]
