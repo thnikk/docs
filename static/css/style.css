@@ -214,25 +214,29 @@ svg { display: inline-block; vertical-align: middle; }
 
 .nav-dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: calc(100% + 8px);
   left: 0;
   min-width: 200px;
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 26px;
   padding: 6px;
   display: none;
   z-index: 100;
   box-shadow: 0 8px 24px rgba(0,0,0,0.3);
 }
-.nav-dropdown.open .nav-dropdown-menu { display: block; }
+.nav-dropdown.open .nav-dropdown-menu { 
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
 .nav-dropdown-link {
   display: block;
   padding: 8px 12px;
   font-size: 14px;
   color: var(--text-dim);
-  border-radius: 6px;
+  border-radius: 999px;
   transition: background 0.15s, color 0.15s;
 }
 .nav-dropdown-link:hover { background: var(--bg-hover); color: var(--text); }
