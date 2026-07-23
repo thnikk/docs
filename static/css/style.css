@@ -23,12 +23,12 @@
   --border: var(--nord1);
   --border-hover: var(--nord2);
   --text: var(--nord4);
-  --text-dim: var(--nord3);
+  --text-dim: var(--nord4);
   --text-link: var(--nord8);
   --text-link-hover: var(--nord7);
   --sidebar-active-bg: rgba(94, 129, 172, 0.15);
   --sidebar-active-text: var(--nord9);
-  --toc-text: var(--nord3);
+  --toc-text: var(--nord4);
   --toc-active: var(--nord8);
   --code-bg: var(--nord0);
   --code-text: var(--nord4);
@@ -44,8 +44,8 @@
   --table-border: var(--nord1);
   --table-bg: transparent;
   --table-alt-bg: var(--nord0);
-  --blockquote-border: var(--nord3);
-  --blockquote-text: var(--nord3);
+  --blockquote-border: var(--nord2);
+  --blockquote-text: var(--nord4);
   --hr-color: var(--nord1);
   --mark-bg: rgba(235, 203, 139, 0.3);
   --selection-bg: var(--nord10);
@@ -57,7 +57,7 @@
   --content-max-width: 48rem;
 }
 
-[data-theme="light"] {
+html[data-theme="light"] {
   --bg: var(--nord6);
   --bg-card: var(--nord5);
   --bg-hover: #c8d0dc;
@@ -785,20 +785,18 @@ li:not(.open) > .sidebar-children { display: none; }
 .footer .theme-btn {
   background: transparent;
   border: none;
-  color: var(--text-dim);
+  color: var(--text);
   padding: 6px 10px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 15px;
   font-family: inherit;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.15s;
 }
 .footer .theme-btn:first-child { border-radius: 999px 0 0 999px; }
 .footer .theme-btn:last-child { border-radius: 0 999px 999px 0; }
 .footer .theme-btn.active {
   background: var(--bg-hover);
-  color: var(--text);
 }
-.footer .theme-btn:hover:not(.active) { color: var(--text); }
 .footer-links {
   flex: 1;
   display: flex;
@@ -822,20 +820,18 @@ li:not(.open) > .sidebar-children { display: none; }
   flex: 1;
   background: transparent;
   border: none;
-  color: var(--text-dim);
+  color: var(--text);
   padding: 6px 10px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 15px;
   font-family: inherit;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.15s;
 }
 .theme-btn:first-child { border-radius: 999px 0 0 999px; }
 .theme-btn:last-child { border-radius: 0 999px 999px 0; }
 .theme-btn.active {
   background: var(--bg-hover);
-  color: var(--text);
 }
-.theme-btn:hover:not(.active) { color: var(--text); }
 .hide-desktop { display: none; }
 
 .chroma { background: var(--code-bg); border-radius: 8px; }
