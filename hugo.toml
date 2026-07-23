@@ -1,0 +1,34 @@
+baseURL = 'https://thnikk.github.io/docs-2026'
+locale = 'en-us'
+title = 'thnikk Keypad Documentation'
+theme = ["github.com/imfing/hextra"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    width = "wide"
+  [params.sidebar]
+    open = false
+  [params.search]
+    type = "flexsearch"
+  [params.page]
+    width = "wide"
+
+[[menu.main]]
+  name = "Search"
+  weight = 1
+  [menu.main.params]
+    type = "search"
+
+[[menu.main]]
+  name = "GitHub"
+  weight = 2
+  url = "https://github.com/thnikk"
+  [menu.main.params]
+    icon = "github"
