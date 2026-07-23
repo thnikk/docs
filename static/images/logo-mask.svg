@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 228.846 121.945">
   <defs>
-    <mask id="m">
+    <mask id="m" mask-type="luminance">
       <rect width="228.846" height="121.945" fill="white"/>
       <path fill="none" stroke="black" stroke-width="20" stroke-linecap="round" d="M141.148 87.698 A37.795 37.795 0 1 0 141.148 34.247 L87.698 87.698 A37.795 37.795 0 1 1 87.698 34.247"/>
     </mask>
   </defs>
-  <rect width="228.846" height="121.945" rx="60.972" fill="#ffffff" mask="url(#m)"/>
+  <rect width="228.846" height="121.945" rx="60.972" fill="white" mask="url(#m)"/>
 </svg>

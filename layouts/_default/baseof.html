@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="darkreader-lock">
+  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+  {{ partial "favicons.html" . }}
+  {{ partial "custom/head-end.html" . }}
+  <link href="{{ "css/style.css" | relURL }}" rel="stylesheet">
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+</head>
+<body>
+  {{ block "navbar" . }}
+    {{ partial "navbar.html" . }}
+  {{ end }}
+  {{ block "main" . }}{{ end }}
+  {{ block "footer" . }}
+    {{ partial "footer.html" . }}
+  {{ end }}
+  <script src="{{ "js/theme.js" | relURL }}"></script>
+  <script src="{{ "js/menu.js" | relURL }}"></script>
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      new PagefindUI({ element: '#search-sidebar', showText: true, showImages: false, resetStyles: false });
+    });
+  </script>
+</body>
+</html>

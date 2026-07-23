@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="page-container">
+    {{ partial "sidebar.html" (dict "context" .) }}
+    <article class="content">
+      <main id="content">
+        {{ partial "breadcrumb.html" . }}
+        <div class="content-body">
+          {{ if .Title }}
+            <h1>{{ .Title }}</h1>
+          {{ end }}
+          {{ .Content }}
+        </div>
+      </main>
+    </article>
+    {{ partial "toc.html" . }}
+  </div>
+{{ end }}

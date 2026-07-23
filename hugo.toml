@@ -1,7 +1,6 @@
 baseURL = 'https://thnikk.github.io/docs-2026'
 locale = 'en-us'
 title = 'thnikk'
-theme = ["github.com/imfing/hextra"]
 
 [markup]
   [markup.goldmark]
@@ -12,23 +11,10 @@ theme = ["github.com/imfing/hextra"]
   [params.navbar]
     displayTitle = true
     displayLogo = true
-    width = "wide"
-  [params.sidebar]
-    open = false
   [params.search]
-    type = "flexsearch"
-  [params.page]
-    width = "wide"
-
-[[menu.main]]
-  name = "Search"
-  weight = 1
-  [menu.main.params]
-    type = "search"
+    enable = true
 
 [[menu.main]]
   name = "GitHub"
   weight = 2
   url = "https://github.com/thnikk"
-  [menu.main.params]
-    icon = "github"
