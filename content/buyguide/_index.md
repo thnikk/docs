@@ -7,13 +7,13 @@ A lot of people have had a lot of questions about my keypads for determining whi
 
 ## Switches
 
-![Pile-o-switches](http://puu.sh/tI4aN/d4baf2b087.jpg)
+![Pile-o-switches](pile.jpg)
 
 This may be the most important choice you can make with your keypad. Luckily, you aren't stuck with your choice thanks to the hot-swap sockets, so don't feel too stressed out. Switch choice is ultimately personal preference, so I'll do my best to provide both objective and subjective information.
 
 ### Clicky
 
-![Blues](https://wiki.installgentoo.com/images/f/f7/Cherry-mx-blue.gif)
+![Blues](Cherry-mx-blue.gif)
 
 These have both a bump and an audible click when the switch is pressed to its actuation point. This is nice for typing (especially touch typing) since it's a clear indication that you've pressed the switch. It's great for avoiding "bottoming out," meaning the switch is fully depressed, which can help reduce fatigue from typing over long periods of time.
 
@@ -21,13 +21,13 @@ However, this is situationally advantageous. Games are much more hectic than typ
 
 ### Tactile
 
-![Browns](https://wiki.installgentoo.com/images/7/7d/Cherry-mx-brown.gif)
+![Browns](Cherry-mx-brown.gif)
 
 These offer the same benefit as clicky switches for typists, but the same downside for games. They have the same bump at the actuation point but no audible click. These would also be nice for professional applications and are better in quiet environments.
 
 ### Linear
 
-![Reds](https://wiki.installgentoo.com/images/3/3a/Cherry-mx-red.gif)
+![Reds](Cherry-mx-red.gif)
 
 Linear switches offer a nice variety in weight (actuation force) and don't have any audible click or tactile bump. I would consider these the best for osu! and gaming use in general.
 
@@ -49,13 +49,13 @@ One other thing to mention is the difference between Gateron and Cherry switches
 
 ### Cherry MX Silver
 
-![Silvers](https://thnikk.moe/img/docs/silver.jpg)
+![Silvers](silver.jpg)
 
 Though MX silvers (also referred to as MX Speed switches) have the same actuation force as MX reds, there are two key differences that set them apart. The first is their higher actuation point, at 1.2 mm instead of the 2 mm on a normal Cherry MX switch. This means the key will be detected as pressed much higher in the keystroke, but I think the same caveat exists that does with tactile/clicky switches. In a hectic gaming scenario, particularly with playing a rhythm game, it won't make a difference if you're bottoming out the keys. However, the second difference is that they bottom out at 3.4 mm instead of the typical 4 mm, which means it should have an impact (no matter how minuscule) whether you bottom out the keys or not.
 
 ### Kailh Choc
 
-![Chocs](https://thnikk.moe/img/docs/choc.jpg)
+![Chocs](choc.jpg)
 
 Kailh's low profile Choc switches offer some unique advantages over standard MX-style switches.
 
@@ -85,7 +85,7 @@ There's a bit of a learning curve. If you play any mobile rhythm games and don't
 
 Keycaps are available in a number of different profiles, as shown in the image below:
 
-![Profiles](https://i.imgur.com/1f1l3yv.png)
+![Profiles](1f1l3yv.png)
 
 ### DCS
 
@@ -97,7 +97,7 @@ DSA keycaps are a little more rare but offer a completely flat profile across al
 
 ### Flat
 
-![](https://pbs.twimg.com/media/C0LONW6UsAAjMPt.jpg)
+![](keycaps.jpg)
 
 Flat keycaps are the least common by far. I bought a few from pimpmykeyboard.com a year or two ago and loved them, but they were a bit too expensive so I figured nobody would want to pay $4+ for them. Fast forward to 2017 and I have a bit more experience in 3D printing. Now I can offer them not only as a cost saving measure to both you and myself, but also be happy that they work well and provide a very nice experience in osu.
 
