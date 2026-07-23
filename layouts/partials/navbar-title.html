@@ -1,0 +1,19 @@
+{{- $logoLink := .Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
+<a class="hx:flex hx:items-center hx:hover:opacity-75 hx:ltr:mr-auto hx:rtl:ml-auto" href="{{ $logoLink }}">
+  {{- if (.Site.Params.navbar.displayLogo | default true) }}
+    <span class="hx:mr-2 hx:text-[#5E81AC] hx:dark:text-[#88C0D0]">
+      <svg height="24" viewBox="0 0 228.846 121.945" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <mask id="cutout">
+            <rect x="-1" y="-1" width="230.846" height="123.945" fill="white"/>
+            <path d="m 141.1483,87.697756 a 37.795276,37.795276 0 1 0 0,-53.4506 l -53.4506,53.45 a 37.7953,37.7953 0 1 1 0,-53.4506" fill="none" stroke="black" stroke-width="20" stroke-linecap="round"/>
+          </mask>
+        </defs>
+        <rect x="0" y="0" width="228.846" height="121.945" ry="60.972" fill="currentColor" mask="url(#cutout)"/>
+      </svg>
+    </span>
+  {{- end }}
+  {{- if (.Site.Params.navbar.displayTitle | default true) }}
+    <span class="hx:font-extrabold hx:select-none">{{- .Site.Title -}}</span>
+  {{- end }}
+</a>

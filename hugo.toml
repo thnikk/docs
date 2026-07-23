@@ -11,7 +11,7 @@ theme = ["github.com/imfing/hextra"]
 [params]
   [params.navbar]
     displayTitle = true
-    displayLogo = false
+    displayLogo = true
     width = "wide"
   [params.sidebar]
     open = false
