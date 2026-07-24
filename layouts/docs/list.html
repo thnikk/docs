@@ -7,7 +7,10 @@
           {{ if .Title }}
             <h1>{{ .Title }}</h1>
           {{ end }}
-          {{ partial "breadcrumb.html" . }}
+          <div class="card-meta">
+            {{ partial "breadcrumb.html" . }}
+            {{ with .Lastmod }}<span class="last-updated">Last updated {{ . | time.Format "January 2, 2006" }}</span>{{ end }}
+          </div>
         </div>
         <div class="content-body">
           {{ .Content }}
