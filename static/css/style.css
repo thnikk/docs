@@ -41,9 +41,9 @@
   --navbar-bg: rgba(28, 31, 38, 0.95);
   --navbar-border: var(--nord1);
   --heading-text: var(--nord4);
-  --table-border: var(--nord1);
+  --table-border: var(--nord0);
   --table-bg: transparent;
-  --table-alt-bg: var(--nord0);
+  --table-alt-bg: var(--nord2);
   --blockquote-border: var(--nord2);
   --blockquote-text: var(--nord4);
   --hr-color: var(--nord1);
@@ -84,7 +84,7 @@ html[data-theme="light"] {
   --heading-text: var(--nord0);
   --table-border: #c8d0dc;
   --table-bg: transparent;
-  --table-alt-bg: var(--nord5);
+  --table-alt-bg: #ffffff;
   --blockquote-border: var(--nord4);
   --blockquote-text: var(--nord2);
   --hr-color: #c8d0dc;
@@ -617,22 +617,47 @@ li:not(.open) > .sidebar-children { display: none; }
 
 .content-body table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   margin-bottom: 16px;
   font-size: 14px;
 }
 
 .content-body th, .content-body td {
   padding: 8px 12px;
-  border: 1px solid var(--table-border);
   text-align: left;
+  background: var(--nord1);
+}
+[data-theme="light"] .content-body th,
+[data-theme="light"] .content-body td {
+  background: var(--nord6);
 }
 
 .content-body th {
-  background: var(--bg-card);
+  background: var(--nord2);
+  color: var(--nord4);
   font-weight: 600;
-  color: var(--heading-text);
+  border-top: 1px solid var(--table-border);
+  border-right: 1px solid var(--table-border);
+  border-bottom: 1px solid var(--table-border);
 }
+.content-body th:first-child {
+  border-left: 1px solid var(--table-border);
+  border-radius: 20px 0 0 0;
+}
+.content-body th:last-child { border-radius: 0 20px 0 0; }
+[data-theme="light"] .content-body th {
+  background: #ffffff;
+  color: var(--nord0);
+}
+
+.content-body td {
+  border-right: 1px solid var(--table-border);
+  border-bottom: 1px solid var(--table-border);
+}
+.content-body td:first-child { border-left: 1px solid var(--table-border); }
+.content-body tr:last-child td:first-child { border-radius: 0 0 0 20px; }
+.content-body tr:last-child td:last-child { border-radius: 0 0 20px 0; }
 
 .content-body tr:nth-child(even) { background: var(--table-alt-bg); }
 
