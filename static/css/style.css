@@ -597,15 +597,47 @@ li:not(.open) > .sidebar-children { display: none; }
   font-family: 'SF Mono', 'Fira Code', monospace;
 }
 
-.content-body pre {
-  background: var(--code-bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 16px;
+.code-block {
+  position: relative;
   margin-bottom: 16px;
+  border: 1px solid var(--nord3);
+  border-radius: 20px;
+  overflow: hidden;
+}
+[data-theme="light"] .code-block { border-color: var(--nord4); }
+.code-block pre { margin-bottom: 0; }
+
+.copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-dim);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s, background 0.15s, color 0.15s;
+}
+.code-block:hover .copy-btn { opacity: 1; }
+.copy-btn:hover { background: var(--bg-hover); color: var(--text); }
+.copy-btn.copied { color: var(--nord14); }
+
+.content-body pre, .highlight pre {
+  background: var(--nord1) !important;
+  padding: 16px;
   overflow-x: auto;
   font-size: 14px;
   line-height: 1.5;
+}
+[data-theme="light"] .content-body pre,
+[data-theme="light"] .highlight pre {
+  background: var(--nord6) !important;
 }
 
 .content-body pre code {
@@ -887,7 +919,7 @@ li:not(.open) > .sidebar-children { display: none; }
 }
 .hide-desktop { display: none; }
 
-.chroma { background: var(--code-bg); border-radius: 8px; }
+.chroma { background: transparent; border-radius: 0; }
 .chroma .lnt { color: var(--nord3); }
 .chroma .k, .chroma .kc, .chroma .kd, .chroma .kn, .chroma .kp, .chroma .kr, .chroma .kt { color: #81a1c1; }
 .chroma .na, .chroma .nb, .chroma .nc, .chroma .no, .chroma .nd, .chroma .ni, .chroma .ne, .chroma .nf, .chroma .nx { color: #88c0d0; }
