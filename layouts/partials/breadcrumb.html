@@ -4,7 +4,11 @@
     {{- range .Ancestors.Reverse -}}
       {{- if not .IsHome -}}
         <span class="breadcrumb-sep">/</span>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- if or .Params.sidebar.toggleOnly .Params.sidebar.exclude -}}
+          <span class="breadcrumb-text">{{ .Title }}</span>
+        {{- else -}}
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{- end -}}
       {{- end -}}
     {{- end -}}
     <span class="breadcrumb-sep">/</span>

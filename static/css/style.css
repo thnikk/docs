@@ -859,6 +859,7 @@ li:not(.open) > .sidebar-children { display: none; }
 }
 .breadcrumb a { color: var(--text-dim); }
 .breadcrumb a:hover { color: var(--text-link); }
+.breadcrumb-text { color: var(--text-dim); opacity: 0.5; }
 .breadcrumb-sep { color: var(--text-dim); opacity: 0.5; }
 .breadcrumb-current { color: var(--text); }
 
