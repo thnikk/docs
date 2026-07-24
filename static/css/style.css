@@ -877,7 +877,7 @@ li:not(.open) > .sidebar-children { display: none; }
 .footer-inner {
   display: flex;
   align-items: center;
-  padding: 20px 16px;
+  padding: 20px 30px;
   font-size: 15px;
 }
 .footer-copy { flex: 1; text-align: left; }
@@ -891,7 +891,7 @@ li:not(.open) > .sidebar-children { display: none; }
   background: transparent;
   border: none;
   color: var(--text);
-  padding: 6px 10px;
+  padding: 3px 6px;
   cursor: pointer;
   font-size: 15px;
   font-family: inherit;
@@ -912,6 +912,7 @@ li:not(.open) > .sidebar-children { display: none; }
   color: var(--text-dim);
   font-size: 18px;
   transition: color 0.15s;
+  margin: -1px 0px;
 }
 .footer-links a:hover { color: var(--text-link); }
 
