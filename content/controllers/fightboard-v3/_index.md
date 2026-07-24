@@ -1,5 +1,5 @@
 ---
-title: "Fightboard v3"
+title: "Fightboard v3/v4"
 weight: 2
 ---
 
