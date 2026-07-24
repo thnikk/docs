@@ -691,7 +691,7 @@ li:not(.open) > .sidebar-children { display: none; }
 .content-body tr:last-child td:first-child { border-radius: 0 0 0 20px; }
 .content-body tr:last-child td:last-child { border-radius: 0 0 20px 0; }
 
-.content-body tr:nth-child(even) { background: var(--table-alt-bg); }
+
 
 .content-body mark {
   background: var(--mark-bg);
