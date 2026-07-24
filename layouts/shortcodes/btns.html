@@ -1,0 +1,6 @@
+{{- $raw := .Get 0 | default "" -}}
+{{- $parts := split $raw " + " -}}
+{{- range $i, $part := $parts -}}
+  {{- if $i }} <span class="btn-sep">+</span> {{ end -}}
+  <kbd class="btn-pill">{{ $part }}</kbd>
+{{- end -}}
