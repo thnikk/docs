@@ -189,7 +189,7 @@ svg { display: inline-block; vertical-align: middle; }
 .navbar-title {
   font-weight: 400;
   user-select: none;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .navbar-menu {
@@ -199,7 +199,7 @@ svg { display: inline-block; vertical-align: middle; }
 }
 
 .nav-dropdown { position: relative; }
-.nav-dropdown.active .nav-dropdown-trigger { background: var(--bg-hover); border-color: var(--border); }
+.nav-dropdown.active .nav-dropdown-trigger { background: var(--bg-card); border-color: var(--border); }
 
 .nav-dropdown-trigger {
   display: flex;
@@ -210,7 +210,7 @@ svg { display: inline-block; vertical-align: middle; }
   border: 1px solid transparent;
   color: var(--text);
   font-family: inherit;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   border-radius: 999px;
   transition: background 0.15s, border-color 0.15s;
