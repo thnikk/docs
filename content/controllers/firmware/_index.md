@@ -39,14 +39,6 @@ It can be opened with {{< btns "L3 + R3 + Start" >}} and you can navigate with {
 
 ![Mini Menu](images/mini-menu.jpg)
 
-## SOCD cleaning
-
-There are three available SOCD modes:
-
-- Neutral: Pressing opposite directions results in no input
-- Up priority: Left + right will cancel out and up + down will be up
-- Last input: Whatever key was hit last will have priority
-
 ## Board LED
 
 The board LED provides some basic feedback. It indicates the current input mode and will blink when switching profiles to indicate the index of the current profile. It's also used to preview color changes from the mini menu.
