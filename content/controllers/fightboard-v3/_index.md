@@ -45,25 +45,12 @@ The sockets and switch depth of the two switch types are completely different, w
 
 ## Firmware
 
-All Fightboards ship with the latest firmware at the time of shipping. No new versions of the firmware are available at the moment, but you can view the source code here:
-[Github](https://github.com/thnikk/GP2040)
+Most Fightboards shipped with an older version of the firmware based on GP2040-CE. The latest firmware is compatible with the v3, so see the [Firmware page](/controllers/firmware/) for the newest firmware and details.
 
-The latest firmware uf2 is available here: [normal](https://www.thnikk.moe/files/fbv3.uf2) [mirrored](https://www.thnikk.moe/files/fbv3-m.uf2)
+{{< callout type="warning" >}}
+The information below applies to older versions of the firmware.
+{{< /callout >}}
 
-### Troubleshooting
-
-If you're having any issues with updating the firmware, try following the [troubleshooting guide](/fb-troubleshoot/).
-
-### GP2040-CE
-
-There's an active fork of the firmware used on the Fightboard [here](https://gp2040-ce.info/downloads). As I am not the maintainer of this project, I can't guarantee the stability of the firmware, but you are welcome to try it if you'd like newer features. To flash it, you need to:
-
-1. Download [flash_nuke.uf2](https://gp2040-ce.info/assets/files/flash_nuke-cde388d5530c9dcfd5394a0ca51009f2.uf2) and the latest version of the [firmware](https://gp2040-ce.info/downloads).
-2. Get the Fightboard into bootloader mode by double-pressing the reset button. You should see a removable storage device called "RPI-RP2" get mounted.
-3. Copy the flash_nuke uf2 to RPI-RP2. The Fightboard will reboot and RPI-RP2 should automatically remount within ~10 seconds.
-4. Copy the GP2040-CE uf2 to RPI-RP2. The Fightboard will reboot again and the display should show the new splash screen.
-
-> **Warning**: You **MUST** flash flash_nuke whenever switching between the default firmware and GP2040-CE.
 
 ## Compatibility
 
