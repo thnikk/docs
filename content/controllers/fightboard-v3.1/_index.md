@@ -37,8 +37,8 @@ Hold these keys at boot to activate special functions.
 |{{< btns "B" >}}| Change input mode to Switch |
 |{{< btns "R2" >}}| Change input mode to Switch Pro |
 |{{< btns "X" >}}| Change input mode to PS3 |
-|{{< btns "Y" >}}| Change input mode to PS4 |
-|{{< btns "R1" >}}| Change input mode to PS5 |
+|{{< btns "Y" >}}| Change input mode to PS4 (PC only) |
+|{{< btns "R1" >}}| Change input mode to PS5 (PC only) |
 |{{< btns "L1" >}}| Change input mode to Keyboard |
 |{{< btns "Start" >}}| Open Web Config |
 |{{< btns "Start + Select" >}}| Open web config with Advanced Configuration tab |
