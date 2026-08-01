@@ -21,12 +21,10 @@
         {{- if $children -}}
           <li class="{{ if $active }}open{{ end }}">
             <div class="sidebar-item">
-              <a class="sidebar-link sidebar-link-children{{ if $active }} sidebar-link-active{{ end }}" href="#" role="button" onclick="event.preventDefault();this.closest('li').classList.toggle('open');">
+              <a class="sidebar-link sidebar-link-children" href="#" role="button" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}" onclick="event.preventDefault();this.closest('li').classList.toggle('open');">
                 <span>{{ .Title }}</span>
-              </a>
-              <button type="button" class="sidebar-collapsible" aria-label="Toggle section" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}">
                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-              </button>
+              </a>
             </div>
             <div class="sidebar-children">
               <ul>
