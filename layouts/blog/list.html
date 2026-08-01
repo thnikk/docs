@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{- $posts := .RegularPages.ByDate.Reverse -}}
+  {{- $paginator := .Paginate $posts -}}
+  <div class="page-container">
+    <article class="content">
+      <div class="blog-posts">
+        {{- range $paginator.Pages }}
+          <article class="blog-post">
+            <h2 class="blog-post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <div class="blog-post-meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "January 2, 2006" }}</time>
+            </div>
+            {{- with .Summary }}
+              <div class="blog-post-summary">{{ . }}</div>
+            {{- end }}
+          </article>
+        {{- end }}
+      </div>
+      {{ partial "pagination.html" $paginator }}
+    </article>
+  </div>
+{{ end }}

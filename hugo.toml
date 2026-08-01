@@ -1,7 +1,13 @@
-baseURL = 'https://thnikk.github.io/docs-2026'
+baseURL = 'https://docs.thnikk.moe'
 locale = 'en-us'
 title = 'Docs'
 enableGitInfo = true
+
+[pagination]
+  pagersize = 8
+
+[taxonomies]
+  tag = "tags"
 
 [markup]
   [markup.goldmark]
@@ -10,10 +16,7 @@ enableGitInfo = true
 
 [params]
   [params.navbar]
-    displayTitle = true
+    displayTitle = false
     displayLogo = true
-
-[[menu.main]]
-  name = "GitHub"
-  weight = 2
-  url = "https://github.com/thnikk"
+    [params.navbar.logo]
+      link = "https://www.thnikk.moe"

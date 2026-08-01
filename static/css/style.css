@@ -40,6 +40,8 @@
   --callout-info-text: var(--nord8);
   --navbar-bg: rgba(28, 31, 38, 0.95);
   --navbar-border: var(--nord1);
+  --nav-hover-bg: var(--nord0);
+  --nav-hover-border: var(--nord1);
   --heading-text: var(--nord4);
   --table-border: var(--nord0);
   --table-bg: transparent;
@@ -81,6 +83,8 @@ html[data-theme="light"] {
   --callout-info-text: var(--nord10);
   --navbar-bg: rgba(236, 239, 244, 0.95);
   --navbar-border: #c8d0dc;
+  --nav-hover-bg: #c8d0dc;
+  --nav-hover-border: #c8d0dc;
   --heading-text: var(--nord0);
   --table-border: #c8d0dc;
   --table-bg: transparent;
@@ -255,14 +259,15 @@ svg { display: inline-block; vertical-align: middle; }
   align-items: center;
   gap: 6px;
   padding: 6px 14px;
-  font-size: 24px;
-  color: var(--text);
+  font-size: 20px;
+  color: inherit;
   text-decoration: none;
   border: 1px solid transparent;
   border-radius: 999px;
   transition: background 0.15s, border-color 0.15s;
 }
-.nav-link:hover { background: var(--bg-hover); border-color: var(--border); color: var(--text) !important; }
+.nav-link:hover,
+.nav-link.active { background: var(--nav-hover-bg); border-color: var(--nav-hover-border); color: inherit; }
 
 .navbar-right {
   display: flex;
@@ -305,7 +310,7 @@ svg { display: inline-block; vertical-align: middle; }
   display: flex;
   flex: 1;
   width: 100%;
-  max-width: 1000px;
+  max-width: calc(var(--sidebar-width) + var(--content-max-width));
   margin: 0 auto;
 }
 
@@ -343,6 +348,21 @@ svg { display: inline-block; vertical-align: middle; }
 
 .sidebar-tree-mobile { display: none; }
 .sidebar-tree-desktop { display: flex; }
+
+@media (min-width: 1000px) {
+  .sidebar {
+    display: flex;
+    width: var(--sidebar-width);
+    flex-shrink: 0;
+    align-self: flex-start;
+  }
+  .sidebar-scroll {
+    position: sticky;
+    top: var(--navbar-height);
+    max-height: calc(100vh - var(--navbar-height));
+  }
+  .sidebar-tree-mobile { display: flex; }
+}
 
 .sidebar-item {
   position: relative;
@@ -719,6 +739,39 @@ li:not(.open) > .sidebar-children { display: none; }
 
 .content-body img { border-radius: 8px; margin: 16px 0; }
 .content-body video { border-radius: 8px; margin: 16px 0; max-width: 100%; }
+
+.blog-posts { display: flex; flex-direction: column; gap: 16px; }
+.blog-post {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 24px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.blog-post:hover { border-color: var(--border-hover); }
+.blog-post-title { font-size: 1.4rem; }
+.blog-post-title a { color: var(--heading-text); text-decoration: none; }
+.blog-post-title a:hover { color: var(--text-link); }
+.blog-post-meta { font-size: 13px; color: var(--text-dim); }
+.blog-post-summary { color: var(--text); }
+.blog-post-summary p { margin-bottom: 8px; }
+
+.blog-nav { display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 1px solid var(--border); }
+.blog-nav-pager { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.blog-nav-link { color: var(--text-link); text-decoration: none; }
+.blog-nav-link:hover { color: var(--text-link-hover); }
+
+.blog-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+.blog-tag { font-size: 13px; padding: 3px 10px; border-radius: 999px; background: var(--bg-hover); border: 1px solid var(--border); color: var(--text); text-decoration: none; }
+.blog-tag:hover { background: var(--nav-hover-bg); border-color: var(--nav-hover-border); }
+
+.pagination { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 24px; flex-wrap: wrap; }
+.pagination-link, .pagination-current { min-width: 32px; height: 32px; display: inline-flex; align-items: center; justify-content: center; padding: 0 10px; border-radius: 999px; font-size: 14px; border: 1px solid transparent; }
+.pagination-link { color: var(--text); text-decoration: none; }
+.pagination-link:hover { background: var(--bg-hover); border-color: var(--border); }
+.pagination-current { background: var(--bg-hover); border-color: var(--border); font-weight: 600; }
 
 .toc {
   width: var(--toc-width);

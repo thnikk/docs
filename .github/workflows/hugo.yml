@@ -39,7 +39,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --cleanDestinationDir
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

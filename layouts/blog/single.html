@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <div class="page-container">
+    <article class="content">
+      <main id="content" class="card">
+        <div class="card-header">
+          <h1>{{ .Title }}</h1>
+          <div class="card-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "January 2, 2006" }}</time>
+          </div>
+        </div>
+        <div class="content-body">
+          {{ .Content }}
+        </div>
+        <div class="blog-nav">
+          <div class="blog-nav-pager">
+            {{- with .NextInSection }}
+              <a class="blog-nav-link" href="{{ .RelPermalink }}">← Newer: {{ .Title }}</a>
+            {{- end }}
+            {{- with .PrevInSection }}
+              <a class="blog-nav-link" href="{{ .RelPermalink }}">Older: {{ .Title }} →</a>
+            {{- end }}
+          </div>
+          <a class="blog-nav-link" href="{{ (site.GetPage "blog").RelPermalink }}">← All posts</a>
+          {{- with .Params.tags }}
+            <div class="blog-tags">
+              {{- range . }}
+                <a class="blog-tag" href="{{ "tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+              {{- end }}
+            </div>
+          {{- end }}
+        </div>
+      </main>
+    </article>
+  </div>
+{{ end }}

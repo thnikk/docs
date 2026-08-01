@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <div class="page-container">
+    <article class="content">
+      <main id="content" class="card">
+        <div class="card-header">
+          <h1>Tags</h1>
+        </div>
+        <div class="content-body">
+          <div class="blog-tags">
+            {{- range .Data.Terms.Alphabetical }}
+              <a class="blog-tag" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+            {{- end }}
+          </div>
+        </div>
+      </main>
+    </article>
+  </div>
+{{ end }}
