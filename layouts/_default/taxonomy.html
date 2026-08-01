@@ -12,7 +12,7 @@
         <div class="content-body">
           <div class="blog-posts">
             {{- range .Pages.ByDate.Reverse }}
-              <article class="blog-post">
+              <article class="card blog-post">
                 <div class="card-header">
                   <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
                   <div class="card-meta">
