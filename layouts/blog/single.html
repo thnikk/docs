@@ -5,7 +5,7 @@
         <div class="card-header">
           <h1>{{ .Title }}</h1>
           <div class="card-meta">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "January 2, 2006" }}</time>
+            <time class="last-updated" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "January 2, 2006" }}</time>
           </div>
         </div>
         <div class="content-body">

@@ -751,10 +751,8 @@ li:not(.open) > .sidebar-children { display: none; }
   gap: 8px;
 }
 .blog-post:hover { border-color: var(--border-hover); }
-.blog-post-title { font-size: 1.4rem; }
-.blog-post-title a { color: var(--heading-text); text-decoration: none; }
-.blog-post-title a:hover { color: var(--text-link); }
-.blog-post-meta { font-size: 13px; color: var(--text-dim); }
+.blog-post .card-header h1 a { color: var(--heading-text); text-decoration: none; }
+.blog-post .card-header h1 a:hover { color: var(--text-link); }
 .blog-post-summary { color: var(--text); }
 .blog-post-summary p { margin-bottom: 8px; }
 

@@ -12,9 +12,11 @@
           <div class="blog-posts">
             {{- range .Pages.ByDate.Reverse }}
               <article class="blog-post">
-                <h2 class="blog-post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-                <div class="blog-post-meta">
-                  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "January 2, 2006" }}</time>
+                <div class="card-header">
+                  <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+                  <div class="card-meta">
+                    <time class="last-updated" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "January 2, 2006" }}</time>
+                  </div>
                 </div>
               </article>
             {{- end }}
