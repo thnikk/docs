@@ -18,10 +18,25 @@
       {{- range $items.ByWeight }}
         {{- $active := or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) -}}
         {{- $children := where (union .RegularPages .Sections) "Params.sidebar.exclude" "!=" true -}}
+        {{- $dir := strings.TrimRight "/" .File.Dir -}}
+        {{- $icon := "fa-link" -}}
+        {{- if eq $dir "quickstart" }}{{ $icon = "fa-bolt" }}{{ end -}}
+        {{- if eq $dir "keypads" }}{{ $icon = "fa-keyboard" }}{{ end -}}
+        {{- if eq $dir "controllers" }}{{ $icon = "fa-gamepad" }}{{ end -}}
+        {{- if eq $dir "guides" }}{{ $icon = "fa-book" }}{{ end -}}
+        {{- if eq $dir "remap" }}{{ $icon = "fa-sliders" }}{{ end -}}
+        {{- if eq $dir "program" }}{{ $icon = "fa-code" }}{{ end -}}
+        {{- if eq $dir "build" }}{{ $icon = "fa-hammer" }}{{ end -}}
+        {{- if eq $dir "travel" }}{{ $icon = "fa-arrows-left-right" }}{{ end -}}
+        {{- if eq $dir "stabilize" }}{{ $icon = "fa-anchor" }}{{ end -}}
+        {{- if eq $dir "unbrick" }}{{ $icon = "fa-triangle-exclamation" }}{{ end -}}
+        {{- if eq $dir "flash-fightboard-v3" }}{{ $icon = "fa-microchip" }}{{ end -}}
+        {{- if eq $dir "fb-troubleshoot" }}{{ $icon = "fa-screwdriver-wrench" }}{{ end -}}
         {{- if $children -}}
           <li class="{{ if $active }}open{{ end }}">
             <div class="sidebar-item">
               <a class="sidebar-link sidebar-link-children" href="#" role="button" aria-expanded="{{ if $active }}true{{ else }}false{{ end }}" onclick="event.preventDefault();this.closest('li').classList.toggle('open');">
+                <i class="fa-solid fa-fw {{ $icon }}"></i>
                 <span>{{ .Title }}</span>
                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
               </a>
