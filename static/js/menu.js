@@ -32,9 +32,10 @@
 
     sidebar.querySelectorAll('a').forEach(function (link) {
       link.addEventListener('click', function () {
-        if (link.getAttribute('href') && link.getAttribute('href').startsWith('#') && link.getAttribute('role') !== 'button') {
-          if (window.innerWidth < 1024) toggleMenu(false);
-        }
+        var href = link.getAttribute('href');
+        var isAnchor = href && href.startsWith('#') && link.getAttribute('role') !== 'button';
+        var isExternal = link.target === '_blank';
+        if ((isAnchor || isExternal) && window.innerWidth < 1024) toggleMenu(false);
       });
     });
   }

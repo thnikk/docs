@@ -1,10 +1,19 @@
 {{- $page := . -}}
 {{- $navRoot := cond (eq site.Home.Type "docs") site.Home site.Home.FirstSection -}}
 {{- $items := where $navRoot.Sections "Params.sidebar.exclude" "!=" true -}}
+{{- $noDocs := or (eq $page.Section "blog") (eq $page.Kind "taxonomy") (eq $page.Kind "term") -}}
 
-<aside class="sidebar">
+<aside class="sidebar{{ if $noDocs }} mobile-only{{ end }}">
 
   <div class="sidebar-scroll">
+    <ul class="sidebar-nav">
+      <li><a class="sidebar-link{{ if not $noDocs }} sidebar-link-active{{ end }}" href="{{ site.Home.RelPermalink }}"><span>Docs</span></a></li>
+      <li><a class="sidebar-link" href="https://www.etsy.com/shop/thnikk" target="_blank" rel="noopener noreferrer"><span>Shop</span></a></li>
+      <li><a class="sidebar-link{{ if $noDocs }} sidebar-link-active{{ end }}" href="{{ (site.GetPage "blog").RelPermalink }}"><span>Blog</span></a></li>
+      <li><a class="sidebar-link" href="https://www.thnikk.moe/about.html" target="_blank" rel="noopener noreferrer"><span>About</span></a></li>
+    </ul>
+
+    {{- if not $noDocs }}
     <ul class="sidebar-tree sidebar-tree-mobile">
       {{- range $items.ByWeight }}
         {{- $active := or (eq $page.RelPermalink .RelPermalink) (.IsAncestor $page) -}}
@@ -41,5 +50,6 @@
         {{- end -}}
       {{- end -}}
     </ul>
+    {{- end }}
   </div>
 </aside>
