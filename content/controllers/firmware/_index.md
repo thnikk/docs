@@ -27,13 +27,13 @@ There are two ways to configure the controller: the web config for in-depth setu
 
 The web config is the main way to configure the controller. It runs in your browser and is best for in-depth setup, like remapping buttons, adjusting profiles, and LED themes, before you start playing.
 
-Hold {{< btns "Start" >}} at boot to open it, or {{< btns "Start + Select" >}} to open it with the Advanced Configuration tab and access it by going to [192.168.7.1](http://192.168.7.1/) in your web browser.
+Hold {{< btns "Start" >}} at boot to open it and access it by going to [192.168.7.1](http://192.168.7.1/) in your web browser.
 
 ![Screenshot](images/web-config.png)
 
 ### Mini Menu
 
-The mini menu is for making quick changes on the device without a computer, such as switching profiles or checking the current input mode.
+The mini menu is for making quick changes on the device without a computer. Most settings are available, but more complex settings like per-key LEDs for the custom theme require the web config.
 
 It can be opened with {{< btns "L3 + R3 + Start" >}} and you can navigate with {{< btns "Up" >}} {{< btns "Down" >}} {{< btns "Left" >}} {{< btns "Right" >}} and select/cancel with {{< btns "A" >}} {{< btns "B" >}}.
 
