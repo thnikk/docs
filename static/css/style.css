@@ -36,7 +36,7 @@
   --callout-info-bg: rgba(136, 192, 208, 0.1);
   --callout-info-border: var(--nord8);
   --callout-info-text: var(--nord8);
-  --navbar-bg: rgba(28, 31, 38, 0.95);
+  --navbar-bg: rgba(28, 31, 38, 0.8);
   --navbar-border: var(--nord1);
   --nav-hover-bg: var(--nord0);
   --nav-hover-border: var(--nord1);
@@ -145,7 +145,6 @@ svg { display: inline-block; vertical-align: middle; }
 .navbar-inner {
   display: flex;
   align-items: center;
-  padding: 0 16px;
   height: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -156,6 +155,7 @@ svg { display: inline-block; vertical-align: middle; }
 .navbar-logo {
   display: flex;
   align-items: center;
+  padding: 0 16px;
   gap: 8px;
   color: var(--text);
   text-decoration: none;
