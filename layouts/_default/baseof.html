@@ -14,6 +14,9 @@
   {{ block "navbar" . }}
     {{ partial "navbar.html" . }}
   {{ end }}
+  {{- if not (or (eq .Section "blog") (eq .Kind "taxonomy") (eq .Kind "term")) }}
+    {{ partial "docs-nav.html" . }}
+  {{- end }}
   {{ block "main" . }}{{ end }}
   {{ block "footer" . }}
     {{ partial "footer.html" . }}

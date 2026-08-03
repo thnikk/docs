@@ -3,17 +3,17 @@
 
 <a class="nav-link{{ if not $isBlog }} active{{ end }}" href="{{ .Site.Home.RelPermalink }}">
   <i class="fa-solid fa-file-lines"></i>
-  Docs
+  <span class="nav-label">Docs</span>
 </a>
 <a class="nav-link" href="https://www.etsy.com/shop/thnikk" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-store"></i>
-  Shop
+  <span class="nav-label">Shop</span>
 </a>
 <a class="nav-link{{ if $isBlog }} active{{ end }}" href="{{ (site.GetPage "blog").RelPermalink }}">
   <i class="fa-solid fa-pen-nib"></i>
-  Blog
+  <span class="nav-label">Blog</span>
 </a>
 <a class="nav-link" href="https://www.thnikk.moe/about.html" target="_blank" rel="noopener noreferrer">
   <i class="fa-solid fa-circle-user"></i>
-  About
+  <span class="nav-label">About</span>
 </a>

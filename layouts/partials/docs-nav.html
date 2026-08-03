@@ -1,0 +1,29 @@
+{{- $navRoot := cond (eq site.Home.Type "docs") site.Home site.Home.FirstSection -}}
+{{- $items := where $navRoot.Sections "Params.sidebar.exclude" "!=" true -}}
+
+<nav class="docs-nav" aria-label="Documentation sections">
+  <div class="docs-nav-inner">
+    {{- range $items.ByWeight }}
+      {{- $active := or (eq $.RelPermalink .RelPermalink) (.IsAncestor $) -}}
+      {{- $children := where (union .RegularPages .Sections) "Params.sidebar.exclude" "!=" true -}}
+      {{- $dir := strings.TrimRight "/" .File.Dir -}}
+      {{- $icon := "fa-link" -}}
+      {{- if eq $dir "keypads" }}{{ $icon = "fa-keyboard" }}{{ end -}}
+      {{- if eq $dir "controllers" }}{{ $icon = "fa-gamepad" }}{{ end -}}
+      {{- if eq $dir "guides" }}{{ $icon = "fa-book" }}{{ end -}}
+      <div class="nav-dropdown{{ if $active }} active{{ end }}">
+        <button type="button" class="nav-dropdown-trigger docs-nav-trigger" aria-expanded="false">
+          <i class="fa-solid fa-fw {{ $icon }}"></i>
+          <span class="docs-nav-label">{{ .Title }}</span>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="nav-dropdown-menu">
+          {{- range $children.ByWeight -}}
+            {{- $ca := or (eq $.RelPermalink .RelPermalink) (.IsAncestor $) -}}
+            <a class="nav-dropdown-link{{ if $ca }} active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{- end -}}
+        </div>
+      </div>
+    {{- end -}}
+  </div>
+</nav>
