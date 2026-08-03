@@ -148,6 +148,7 @@ svg { display: inline-block; vertical-align: middle; }
   height: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  position: relative;
 }
 
 .navbar-left { display: flex; align-items: center; margin-right: auto; }
@@ -279,20 +280,54 @@ svg { display: inline-block; vertical-align: middle; }
   font-weight: 600;
 }
 
-.nav-collapsed .nav-label,
+.navbar-inner.nav-collapsed .nav-label { display: none; }
+.navbar-inner.nav-collapsed .nav-link i { font-size: 1.5em; }
+.navbar-inner.nav-collapsed.nav-open .nav-label { display: inline; }
+.navbar-inner.nav-collapsed.nav-open .nav-link i { font-size: 1em; }
+
+.navbar-inner.nav-icons-collapsed .navbar-menu { display: none; }
+.navbar-inner.nav-icons-collapsed .menu-toggle { display: flex; }
+.navbar-inner.nav-icons-collapsed.nav-open .navbar-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  z-index: 60;
+}
+.navbar-inner.nav-icons-collapsed.nav-open .nav-link {
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: 10px 16px;
+  font-size: 18px;
+}
+
 .nav-collapsed .docs-nav-label { display: none; }
-.nav-collapsed .nav-link i,
 .nav-collapsed .docs-nav-trigger i { font-size: 1.5em; }
-.nav-icons-collapsed .nav-link,
 .nav-icons-collapsed .nav-dropdown { display: none; }
 
+.nav-measuring,
+.nav-measuring-icons {
+  display: flex !important;
+  position: static !important;
+  flex-direction: row !important;
+}
 .nav-measuring .nav-label,
-.nav-measuring .docs-nav-label { display: inline; }
+.nav-measuring .docs-nav-label { display: inline !important; }
 .nav-measuring .nav-link,
 .nav-measuring .nav-dropdown { display: flex !important; flex-shrink: 0; }
 
 .nav-measuring-icons .nav-label,
-.nav-measuring-icons .docs-nav-label { display: none; }
+.nav-measuring-icons .docs-nav-label { display: none !important; }
 .nav-measuring-icons .nav-link,
 .nav-measuring-icons .nav-dropdown { display: flex !important; flex-shrink: 0; }
 .nav-dropdown-link:hover { background: var(--bg-hover); color: var(--text); }
@@ -318,6 +353,32 @@ svg { display: inline-block; vertical-align: middle; }
   gap: 4px;
   min-width: 0;
 }
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 60;
+}
+.menu-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.menu-toggle.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+.menu-toggle.open span:nth-child(2) { opacity: 0; }
+.menu-toggle.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
 
 .navbar-icon {
   display: flex;

@@ -1,6 +1,6 @@
 (function () {
   // Auto-collapse nav button labels/icons when they don't fit
-  var navs = document.querySelectorAll('.navbar-menu, .docs-nav-inner');
+  var navs = document.querySelectorAll('.navbar-inner, .docs-nav-inner');
 
   function overflows(container) {
     var cs = getComputedStyle(container);
@@ -12,23 +12,74 @@
   }
 
   function updateNav() {
-    navs.forEach(function (container) {
-      container.classList.add('nav-measuring');
-      var labelsOverflow = overflows(container);
-      container.classList.remove('nav-measuring');
+    navs.forEach(function (nav) {
+      var links = nav.matches('.docs-nav-inner') ? nav : nav.querySelector('.navbar-menu');
+      if (!links) return;
 
-      container.classList.add('nav-measuring-icons');
-      var iconsOverflow = overflows(container);
-      container.classList.remove('nav-measuring-icons');
+      links.classList.add('nav-measuring');
+      var labelsOverflow = overflows(links);
+      links.classList.remove('nav-measuring');
 
-      container.classList.toggle('nav-collapsed', labelsOverflow);
-      container.classList.toggle('nav-icons-collapsed', iconsOverflow);
+      links.classList.add('nav-measuring-icons');
+      var iconsOverflow = overflows(links);
+      links.classList.remove('nav-measuring-icons');
+
+      nav.classList.toggle('nav-collapsed', labelsOverflow);
+      nav.classList.toggle('nav-icons-collapsed', iconsOverflow);
+      if (!iconsOverflow) {
+        nav.classList.remove('nav-open');
+        var hb = nav.querySelector('.menu-toggle');
+        if (hb) {
+          hb.classList.remove('open');
+          hb.setAttribute('aria-expanded', 'false');
+        }
+      }
     });
   }
 
   updateNav();
-  window.addEventListener('resize', updateNav);
+  var rafPending = false;
+  window.addEventListener('resize', function () {
+    if (rafPending) return;
+    rafPending = true;
+    requestAnimationFrame(function () {
+      rafPending = false;
+      updateNav();
+    });
+  });
   window.addEventListener('load', updateNav);
+
+  // Hamburger menu (main navbar)
+  document.querySelectorAll('.navbar-inner').forEach(function (nav) {
+    var hb = nav.querySelector('.menu-toggle');
+    var menu = nav.querySelector('.navbar-menu');
+    if (!hb || !menu) return;
+
+    function closeMenu() {
+      nav.classList.remove('nav-open');
+      hb.classList.remove('open');
+      hb.setAttribute('aria-expanded', 'false');
+    }
+
+    hb.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = nav.classList.toggle('nav-open');
+      hb.classList.toggle('open', open);
+      hb.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!nav.contains(e.target)) closeMenu();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeMenu();
+    });
+  });
 
   // Navbar dropdowns
   document.querySelectorAll('.nav-dropdown-trigger').forEach(function (trigger) {
