@@ -376,6 +376,7 @@ svg { display: inline-block; vertical-align: middle; }
 
 .card-meta {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 12px;
 }
