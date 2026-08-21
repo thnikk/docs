@@ -1,0 +1,14 @@
+{{- $img := .Page.Resources.GetMatch (.Get "img") -}}
+{{- if not $img -}}
+  {{- $img = .Page.Resources.GetMatch (path.Base (.Get "img")) -}}
+{{- end -}}
+{{- $w := .Get "w" | default 200 -}}
+{{- $h := .Get "h" | default 200 -}}
+<div class="imgtext">
+  {{- if $img -}}
+    <img class="imgtext-img" src="{{ $img.RelPermalink }}" alt="{{ .Get "alt" | default "" }}" style="max-width: {{ $w }}px; max-height: {{ $h }}px;">
+  {{- else -}}
+    <img class="imgtext-img" src="{{ .Get "img" }}" alt="{{ .Get "alt" | default "" }}" style="max-width: {{ $w }}px; max-height: {{ $h }}px;">
+  {{- end -}}
+  <div class="imgtext-body">{{ .Inner | .Page.RenderString }}</div>
+</div>
