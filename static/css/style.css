@@ -17,6 +17,11 @@
   --nord14: #a3be8c;
   --nord15: #b48ead;
 
+  --bg-1: var(--nord-dark-bg);
+  --bg-2: var(--nord0);
+  --bg-3: var(--nord1);
+  --bg-4: var(--nord2);
+
   --bg: var(--nord-dark-bg);
   --bg-card: var(--nord0);
   --bg-hover: var(--nord1);
@@ -58,6 +63,11 @@
 }
 
 html[data-theme="light"] {
+  --bg-1: #ffffff;
+  --bg-2: var(--nord6);
+  --bg-3: var(--nord5);
+  --bg-4: var(--nord4);
+
   --bg: var(--nord6);
   --bg-card: var(--nord5);
   --bg-hover: #c8d0dc;
@@ -140,6 +150,7 @@ svg { display: inline-block; vertical-align: middle; }
   background: var(--navbar-bg);
   backdrop-filter: blur(8px);
   min-height: 70px;
+  padding: 10px;
 }
 
 .navbar-inner {
@@ -156,7 +167,7 @@ svg { display: inline-block; vertical-align: middle; }
 .navbar-logo {
   display: flex;
   align-items: center;
-  padding: 0 16px;
+  padding: 0px;
   gap: 8px;
   color: var(--text);
   text-decoration: none;
@@ -848,27 +859,38 @@ svg { display: inline-block; vertical-align: middle; }
   font-size: 15px;
 }
 .footer-copy { flex: 1; text-align: left; }
-.footer .theme-toggle {
+
+.theme-btn .icon {
+  height: 15px;
+  display: block;
+}
+
+.theme-toggle {
   display: flex;
-  border: 1px solid var(--border);
+  border: none;
+	background: var(--bg-1);
+	gap: 2px;
+	padding: 2px;
   border-radius: 999px;
   overflow: hidden;
 }
-.footer .theme-btn {
+
+.theme-btn {
   background: transparent;
   border: none;
-  color: var(--text);
-  padding: 6px;
+  color: inherit;
+  padding: 6px 10px;
   cursor: pointer;
   font-size: 15px;
-  line-height: normal;
   transition: background 0.15s;
+	border-radius: 999px;
 }
-.footer .theme-btn:first-child { border-radius: 999px 0 0 999px; }
-.footer .theme-btn:last-child { border-radius: 0 999px 999px 0; }
-.footer .theme-btn.active {
-  background: var(--bg-hover);
+
+.theme-btn.active {
+  background: var(--bg-3);
 }
+
+
 .footer-links {
   flex: 1;
   display: flex;
@@ -887,21 +909,6 @@ svg { display: inline-block; vertical-align: middle; }
   border: 1px solid var(--border);
   border-radius: 999px;
   overflow: hidden;
-}
-.theme-btn {
-  flex: 1;
-  background: transparent;
-  border: none;
-  color: var(--text);
-  padding: 6px 10px;
-  cursor: pointer;
-  font-size: 15px;
-  transition: background 0.15s;
-}
-.theme-btn:first-child { border-radius: 999px 0 0 999px; }
-.theme-btn:last-child { border-radius: 0 999px 999px 0; }
-.theme-btn.active {
-  background: var(--bg-hover);
 }
 .hide-desktop { display: none; }
 
