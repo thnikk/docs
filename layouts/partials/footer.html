@@ -1,6 +1,6 @@
 <footer class="footer">
   <div class="footer-inner">
-    <span class="footer-copy">thnikk &copy; <script>document.write(new Date().getFullYear())</script></span>
+    <span class="footer-copy" title="Last updated {{ with (os.Getenv "HUGO_BUILD_DATE") }}{{ . }}{{ else }}{{ now.Format "2006-01-02" }}{{ end }}">thnikk &hearts;&#xFE0E; {{ with (os.Getenv "HUGO_BUILD_YEAR") }}{{ . }}{{ else }}{{ now.Year }}{{ end }}</span>
     <div class="theme-toggle">
       <button class="theme-btn" data-theme="light" title="Light"><i class="fa-solid fa-sun"></i></button>
       <button class="theme-btn" data-theme="dark" title="Dark"><i class="fa-solid fa-moon"></i></button>
